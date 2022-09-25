@@ -1,0 +1,20 @@
+package com.google.android.apps.gsa.nga.engine.p6144ui.p6154e.p6173h.p6174a.p6175a;
+
+import com.google.android.apps.gsa.nga.shared.p6321am.p6322a.C80902aq;
+import com.google.common.p4526f.C59052c;
+
+/* renamed from: com.google.android.apps.gsa.nga.engine.ui.e.h.a.a.aw */
+/* compiled from: PG */
+public final /* synthetic */ class C78301aw implements C80902aq {
+
+    /* renamed from: a */
+    public static final /* synthetic */ C78301aw f215598a = new C78301aw();
+
+    private /* synthetic */ C78301aw() {
+    }
+
+    /* renamed from: a */
+    public final void mo49513a(Throwable th) {
+        ((C59052c) ((C59052c) ((C59052c) C78302ax.f215599a.mo56225c()).mo56382g(th)).mo56372aa(5129)).mo56386p("Failed to increment nest promo impression count");
+    }
+}

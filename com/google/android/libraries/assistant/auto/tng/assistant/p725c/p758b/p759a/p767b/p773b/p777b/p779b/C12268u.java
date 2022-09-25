@@ -1,0 +1,63 @@
+package com.google.android.libraries.assistant.auto.tng.assistant.p725c.p758b.p759a.p767b.p773b.p777b.p779b;
+
+import com.google.android.libraries.assistant.auto.tng.assistant.p725c.p758b.p759a.p767b.p773b.p777b.p778a.C12235f;
+import com.google.apps.tiktok.concurrent.C46459k;
+import com.google.common.base.C58833ax;
+import com.google.common.util.concurrent.C60856cj;
+import com.google.common.util.concurrent.C60870cx;
+import com.google.p4449cd.C57940c;
+import dagger.p5295b.C68282c;
+import dagger.p5295b.C68283d;
+import dagger.p5295b.p5296a.C68236af;
+import dagger.p5295b.p5296a.C68247h;
+import dagger.p5295b.p5297b.C68277d;
+import java.util.List;
+import p5460g.p5461a.C69464a;
+
+/* renamed from: com.google.android.libraries.assistant.auto.tng.assistant.c.b.a.b.b.b.b.u */
+/* compiled from: PG */
+public final class C12268u extends C68247h {
+
+    /* renamed from: a */
+    private final C68283d f39039a;
+
+    /* renamed from: c */
+    private final C68283d f39040c;
+
+    /* renamed from: d */
+    private final C68283d f39041d;
+
+    /* renamed from: e */
+    private final C68283d f39042e;
+
+    public C12268u(C69464a aVar, C69464a aVar2, C68283d dVar, C68283d dVar2, C68283d dVar3, C68283d dVar4) {
+        super(aVar2, new C68277d(C12268u.class), aVar);
+        this.f39039a = C68236af.m98549d(dVar);
+        this.f39040c = C68236af.m98549d(dVar2);
+        this.f39041d = C68236af.m98549d(dVar3);
+        this.f39042e = C68236af.m98549d(dVar4);
+    }
+
+    /* renamed from: a */
+    public final /* bridge */ /* synthetic */ C60870cx mo20481a(Object obj) {
+        List list = (List) obj;
+        C68282c cVar = (C68282c) list.get(0);
+        C68283d dVar = this.f39040c;
+        C12235f fVar = (C12235f) list.get(1);
+        boolean booleanValue = ((Boolean) list.get(2)).booleanValue();
+        if (!C57940c.m88582i(cVar) || !((C58833ax) cVar.mo60292a()).mo56113h()) {
+            if (booleanValue) {
+                C46459k.m82829b(fVar.mo20518a(), "failed #setFulfillmentModeToNative", new Object[0]);
+            }
+            return dVar.mo60297gq();
+        }
+        C46459k.m82829b(fVar.mo20519b(), "failed #setFulfillmentModeToPortmon", new Object[0]);
+        return C60856cj.m92900i((C58833ax) cVar.mo60292a());
+    }
+
+    /* access modifiers changed from: protected */
+    /* renamed from: b */
+    public final C60870cx mo20482b() {
+        return C60856cj.m92897f(C68236af.m98546a(this.f39039a.mo60297gq()), this.f39041d.mo60297gq(), this.f39042e.mo60297gq());
+    }
+}

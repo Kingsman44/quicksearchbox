@@ -1,0 +1,40 @@
+package com.google.android.libraries.mdi.download.p2236d.p2238b;
+
+import android.content.Context;
+import android.net.Uri;
+import com.google.android.libraries.mdi.download.p2236d.p2242f.C29090d;
+import com.google.android.libraries.storage.p3304a.p3305a.C42718e;
+import com.google.android.libraries.storage.p3304a.p3305a.C42719f;
+import com.google.common.base.C58833ax;
+import dagger.p5294a.C68220f;
+import dagger.p5294a.C68225k;
+import p5460g.p5461a.C69464a;
+
+/* renamed from: com.google.android.libraries.mdi.download.d.b.ao */
+/* compiled from: PG */
+public final class C28860ao implements C68220f {
+
+    /* renamed from: a */
+    private final C69464a f78398a;
+
+    /* renamed from: b */
+    private final C69464a f78399b;
+
+    public C28860ao(C69464a aVar, C69464a aVar2) {
+        this.f78398a = aVar;
+        this.f78399b = aVar2;
+    }
+
+    /* renamed from: b */
+    public final /* bridge */ /* synthetic */ Object mo17428b() {
+        Context context = ((C28861b) this.f78398a).f78400a.f78353a;
+        C68225k.m98532d(context);
+        C42718e a = C42719f.m75461a(context);
+        C42719f.m75463c("mdd_pds_config");
+        a.f111968c = "mdd_pds_config";
+        a.mo45821b(C29090d.m53983d("DiagSharedFiles", (C58833ax) this.f78399b.mo17428b()));
+        Uri a2 = a.mo45820a();
+        C68225k.m98532d(a2);
+        return a2;
+    }
+}

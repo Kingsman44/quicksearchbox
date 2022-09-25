@@ -1,0 +1,11 @@
+package com.google.android.apps.search.podcasts.widgets.menu;
+
+import com.google.android.googlequicksearchbox.R;
+
+/* renamed from: com.google.android.apps.search.podcasts.widgets.menu.a */
+/* compiled from: PG */
+public final class C141266a {
+
+    /* renamed from: a */
+    public static final int[] f383516a = {R.attr.appearance, R.attr.iconHeight};
+}

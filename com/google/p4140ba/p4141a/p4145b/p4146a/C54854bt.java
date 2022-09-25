@@ -1,0 +1,12 @@
+package com.google.p4140ba.p4141a.p4145b.p4146a;
+
+import com.google.protobuf.C62934bn;
+import com.google.protobuf.C63001dt;
+
+/* renamed from: com.google.ba.a.b.a.bt */
+/* compiled from: PG */
+public final class C54854bt extends C62934bn implements C63001dt {
+    public C54854bt() {
+        super(C54855bu.f144082i);
+    }
+}

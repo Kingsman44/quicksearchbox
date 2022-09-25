@@ -1,0 +1,12 @@
+package com.google.android.apps.gsa.nga.engine.p6056o.p6061d.p6066c;
+
+import com.google.protobuf.C62934bn;
+import com.google.protobuf.C63001dt;
+
+/* renamed from: com.google.android.apps.gsa.nga.engine.o.d.c.a */
+/* compiled from: PG */
+public final class C76651a extends C62934bn implements C63001dt {
+    public C76651a() {
+        super(C76652b.f211910b);
+    }
+}

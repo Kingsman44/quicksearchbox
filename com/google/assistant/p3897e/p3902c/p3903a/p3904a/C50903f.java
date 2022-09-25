@@ -1,0 +1,72 @@
+package com.google.assistant.p3897e.p3902c.p3903a.p3904a;
+
+import com.evernote.android.state.BuildConfig;
+import com.google.android.setupcompat.p3549a.C45240c;
+import com.google.protobuf.C62935bo;
+import com.google.protobuf.C62941bu;
+import com.google.protobuf.C62942bv;
+import com.google.protobuf.C62971cq;
+import com.google.protobuf.C63001dt;
+import com.google.protobuf.C63010eb;
+
+/* renamed from: com.google.assistant.e.c.a.a.f */
+/* compiled from: PG */
+public final class C50903f extends C62942bv implements C63001dt {
+
+    /* renamed from: d */
+    public static final C50903f f132533d;
+
+    /* renamed from: e */
+    private static volatile C63010eb f132534e;
+
+    /* renamed from: a */
+    public int f132535a;
+
+    /* renamed from: b */
+    public String f132536b = BuildConfig.FLAVOR;
+
+    /* renamed from: c */
+    public C62971cq f132537c = emptyProtobufList();
+
+    static {
+        C50903f fVar = new C50903f();
+        f132533d = fVar;
+        C62942bv.registerDefaultInstance(C50903f.class, fVar);
+    }
+
+    private C50903f() {
+    }
+
+    /* access modifiers changed from: protected */
+    public final Object dynamicMethod(C62941bu buVar, Object obj, Object obj2) {
+        C62941bu buVar2 = C62941bu.GET_MEMOIZED_IS_INITIALIZED;
+        switch (buVar.ordinal()) {
+            case 0:
+                return (byte) 1;
+            case 1:
+                return null;
+            case 2:
+                return newMessageInfo(f132533d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဈ\u0000\u0002\u001b", new Object[]{"a", "b", C45240c.f118157a, C50899b.class});
+            case 3:
+                return new C50903f();
+            case 4:
+                return new C50902e();
+            case 5:
+                return f132533d;
+            case 6:
+                C63010eb ebVar = f132534e;
+                if (ebVar == null) {
+                    synchronized (C50903f.class) {
+                        ebVar = f132534e;
+                        if (ebVar == null) {
+                            ebVar = new C62935bo(f132533d);
+                            f132534e = ebVar;
+                        }
+                    }
+                }
+                return ebVar;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

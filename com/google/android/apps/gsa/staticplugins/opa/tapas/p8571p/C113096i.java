@@ -1,0 +1,12 @@
+package com.google.android.apps.gsa.staticplugins.opa.tapas.p8571p;
+
+import com.google.protobuf.C62994dm;
+import com.google.protobuf.C63066gd;
+
+/* renamed from: com.google.android.apps.gsa.staticplugins.opa.tapas.p.i */
+/* compiled from: PG */
+final class C113096i {
+
+    /* renamed from: a */
+    static final C62994dm f313360a = new C62994dm(C63066gd.INT32, 0, C63066gd.MESSAGE, C113103p.f313378b);
+}

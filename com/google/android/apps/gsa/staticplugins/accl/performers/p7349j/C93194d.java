@@ -1,0 +1,40 @@
+package com.google.android.apps.gsa.staticplugins.accl.performers.p7349j;
+
+import android.content.Context;
+import com.google.android.apps.gsa.search.core.google.gaia.p6800c.p6801a.C86034c;
+import com.google.android.libraries.gsa.conversation.clientop.C22434e;
+import com.google.android.libraries.gsa.conversation.clientop.C22538o;
+import com.google.android.libraries.search.assistant.performer.p2766i.C36167o;
+import com.google.assistant.p3897e.p3921j.C51809dy;
+import com.google.common.util.concurrent.C60826bg;
+import com.google.common.util.concurrent.C60838bs;
+import com.google.common.util.concurrent.C60870cx;
+import com.google.common.util.concurrent.C60922j;
+
+/* renamed from: com.google.android.apps.gsa.staticplugins.accl.performers.j.d */
+/* compiled from: PG */
+public final class C93194d extends C22538o {
+
+    /* renamed from: a */
+    public final Context f259904a;
+
+    /* renamed from: b */
+    private final C86034c f259905b;
+
+    /* renamed from: com.google.android.apps.gsa.staticplugins.accl.performers.j.d$a */
+    /* compiled from: PG */
+    public interface C93195a {
+        /* renamed from: ft */
+        C36167o mo87563ft();
+    }
+
+    public C93194d(Context context, C86034c cVar) {
+        this.f259904a = context;
+        this.f259905b = cVar;
+    }
+
+    /* renamed from: a */
+    public final C60870cx mo20765a(C51809dy dyVar, C22434e eVar) {
+        return C60922j.m93045h(C60838bs.m92859i(this.f259905b.mo79697b()), new C93193c(this, dyVar), C60826bg.f164896a);
+    }
+}

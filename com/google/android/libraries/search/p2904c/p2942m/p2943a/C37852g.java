@@ -1,0 +1,26 @@
+package com.google.android.libraries.search.p2904c.p2942m.p2943a;
+
+import com.google.android.libraries.search.p2904c.C37362b;
+import com.google.android.libraries.search.p2904c.C37404bi;
+import com.google.android.libraries.search.p2904c.C37410bo;
+import com.google.common.base.C58817ah;
+
+/* renamed from: com.google.android.libraries.search.c.m.a.g */
+/* compiled from: PG */
+public final /* synthetic */ class C37852g implements C58817ah {
+
+    /* renamed from: a */
+    public final /* synthetic */ C37410bo f100395a;
+
+    /* renamed from: b */
+    public final /* synthetic */ C37362b f100396b;
+
+    public /* synthetic */ C37852g(C37410bo boVar, C37362b bVar) {
+        this.f100395a = boVar;
+        this.f100396b = bVar;
+    }
+
+    public final Object apply(Object obj) {
+        return ((C37404bi) obj).mo40936b(this.f100395a, this.f100396b);
+    }
+}

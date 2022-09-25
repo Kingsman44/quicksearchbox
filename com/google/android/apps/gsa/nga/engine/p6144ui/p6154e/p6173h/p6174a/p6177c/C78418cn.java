@@ -1,0 +1,16 @@
+package com.google.android.apps.gsa.nga.engine.p6144ui.p6154e.p6173h.p6174a.p6177c;
+
+/* renamed from: com.google.android.apps.gsa.nga.engine.ui.e.h.a.c.cn */
+/* compiled from: PG */
+enum C78418cn {
+    SWITCH_TO_TRANSCRIPTION_STAGE,
+    SWITCH_TO_NEW_INVOCATION_STAGE,
+    SWITCH_TO_EXECUTING_STAGE,
+    SWITCH_TO_GONE_STAGE,
+    SWITCH_TO_NOT_LISTENING_STAGE,
+    SWITCH_TO_SCREEN_CONTEXT_EXPLANATION_STAGE,
+    SWITCH_TO_OAUTH_FIX_STAGE,
+    SWITCH_TO_NEW_INVOCATION_WITH_EXPAND_PLATE_STAGE,
+    SWITCH_TO_NEW_INVOCATION_WITH_SPEED_BUMP,
+    DO_NOT_SWITCH_STAGE
+}

@@ -1,0 +1,26 @@
+package com.google.android.apps.search.googleapp.discover.streamui;
+
+/* renamed from: com.google.android.apps.search.googleapp.discover.streamui.e */
+/* compiled from: PG */
+public enum C134720e {
+    SEARCH_BOX_TAPPED,
+    VOICE_SEARCH_TAPPED,
+    DOODLE_TAPPED,
+    NAVIGATED_BACK,
+    NAVIGATED_TO_ANOTHER_TAB,
+    ACCOUNT_PARTICLE_DISC_TAPPED,
+    CONFIGURATION_CHANGED,
+    OVERFLOW_MANAGE_INTERESTS_TAPPED,
+    OVERFLOW_SETTINGS_TAPPED,
+    OVERFLOW_FEEDBACK_TAPPED,
+    OVERFLOW_HELP_TAPPED,
+    FRAGMENT_PAUSED,
+    CARD_TAPPED,
+    VIDEO_CARD_TAPPED,
+    CHANNEL_CHIP_TAPPED,
+    FULL_COVERAGE_ICON_TAPPED,
+    MORE_STORIES_TAPPED,
+    MANAGE_INTERESTS_TAPPED,
+    MINUS_ONE_OVERLAY_CLOSED,
+    UNKNOWN
+}

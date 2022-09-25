@@ -1,0 +1,27 @@
+package com.google.android.apps.gsa.nga.shared.p6356m.p6357a;
+
+import com.google.android.apps.gsa.nga.engine.C74748a;
+import p3186j$.util.function.Function;
+
+/* renamed from: com.google.android.apps.gsa.nga.shared.m.a.v */
+/* compiled from: PG */
+public final /* synthetic */ class C81421v implements Function {
+
+    /* renamed from: a */
+    public static final /* synthetic */ C81421v f222828a = new C81421v();
+
+    private /* synthetic */ C81421v() {
+    }
+
+    public final /* synthetic */ Function andThen(Function function) {
+        return Function.CC.$default$andThen(this, function);
+    }
+
+    public final Object apply(Object obj) {
+        return Boolean.valueOf(((C74748a) obj).mo71127D().e());
+    }
+
+    public final /* synthetic */ Function compose(Function function) {
+        return Function.CC.$default$compose(this, function);
+    }
+}

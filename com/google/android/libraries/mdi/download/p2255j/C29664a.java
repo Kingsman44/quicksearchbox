@@ -1,0 +1,254 @@
+package com.google.android.libraries.mdi.download.p2255j;
+
+import android.content.Context;
+import com.google.android.libraries.mdi.download.C28787cb;
+import com.google.android.libraries.mdi.download.C29409fd;
+import com.google.android.libraries.mdi.download.C29410fe;
+import com.google.android.libraries.mdi.download.C29411ff;
+import com.google.android.libraries.mdi.download.C29412fg;
+import com.google.android.libraries.mdi.download.C29413fh;
+import com.google.android.libraries.mdi.download.C29647hr;
+import com.google.android.libraries.mdi.download.C29658ia;
+import com.google.android.libraries.mdi.download.C29661id;
+import com.google.android.libraries.mdi.download.C29662ie;
+import com.google.android.libraries.mdi.download.foreground.sting.ForegroundDownloadService;
+import com.google.android.libraries.mdi.download.p2228a.C28693a;
+import com.google.android.libraries.mdi.download.p2229b.C28722a;
+import com.google.android.libraries.mdi.download.p2236d.C29118ff;
+import com.google.android.libraries.mdi.download.p2236d.C29149gj;
+import com.google.android.libraries.mdi.download.p2236d.C29171he;
+import com.google.android.libraries.mdi.download.p2236d.C29211ir;
+import com.google.android.libraries.mdi.download.p2236d.C29238jr;
+import com.google.android.libraries.mdi.download.p2236d.C29293ls;
+import com.google.android.libraries.mdi.download.p2236d.C29297lw;
+import com.google.android.libraries.mdi.download.p2236d.C29299ly;
+import com.google.android.libraries.mdi.download.p2236d.C29314z;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28845a;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28846aa;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28847ab;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28848ac;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28849ad;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28850ae;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28851af;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28852ag;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28853ah;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28854ai;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28855aj;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28856ak;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28857al;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28858am;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28859an;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28860ao;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28861b;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28862c;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28863d;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28864e;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28865f;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28866g;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28867h;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28868i;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28871l;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28872m;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28873n;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28875p;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28876q;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28877r;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28878s;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28879t;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28880u;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28881v;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28882w;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28883x;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28884y;
+import com.google.android.libraries.mdi.download.p2236d.p2238b.C28885z;
+import com.google.android.libraries.mdi.download.p2236d.p2241e.C29012aa;
+import com.google.android.libraries.mdi.download.p2236d.p2241e.C29034aw;
+import com.google.android.libraries.mdi.download.p2236d.p2241e.C29037d;
+import com.google.android.libraries.mdi.download.p2236d.p2241e.C29042i;
+import com.google.android.libraries.mdi.download.p2236d.p2241e.C29044k;
+import com.google.android.libraries.mdi.download.p2236d.p2241e.C29046m;
+import com.google.android.libraries.mdi.download.p2236d.p2241e.C29056w;
+import com.google.android.libraries.mdi.download.p2236d.p2241e.C29059z;
+import com.google.android.libraries.mdi.download.p2243e.C29349ac;
+import com.google.android.libraries.mdi.download.p2243e.C29360j;
+import com.google.android.libraries.mdi.download.p2243e.C29361k;
+import com.google.android.libraries.mdi.download.p2246f.C29404a;
+import com.google.android.libraries.mdi.download.p2247g.C29446j;
+import com.google.android.libraries.storage.p3304a.C42813k;
+import com.google.android.libraries.storage.protostore.C42880af;
+import com.google.apps.tiktok.tracing.C47810es;
+import com.google.common.base.C58833ax;
+import com.google.common.base.C58851bo;
+import com.google.common.base.C58881cr;
+import com.google.common.p4522b.C58485gu;
+import com.google.common.util.concurrent.C60826bg;
+import com.google.common.util.concurrent.C60856cj;
+import com.google.common.util.concurrent.C60870cx;
+import com.google.common.util.concurrent.C60887da;
+import com.google.common.util.concurrent.C60904dr;
+import dagger.p5294a.C68219e;
+import dagger.p5294a.C68220f;
+import dagger.p5294a.C68225k;
+import java.util.concurrent.Executor;
+import p5460g.p5461a.C69464a;
+
+/* renamed from: com.google.android.libraries.mdi.download.j.a */
+/* compiled from: PG */
+public final class C29664a implements C68220f {
+    /* renamed from: a */
+    public static C29409fd m54706a(Context context, C60887da daVar, C58485gu guVar, C29661id idVar, C42813k kVar, C29446j jVar, C58833ax axVar, C58881cr crVar, C58833ax axVar2, C28722a aVar, C29404a aVar2, C29658ia iaVar, C42880af afVar, C58833ax axVar3, C58833ax axVar4, C28787cb cbVar, C58833ax axVar5, C58833ax axVar6) {
+        C29037d dVar;
+        C29409fd fdVar;
+        C29413fh fhVar = new C29413fh();
+        fhVar.f79732b = context.getApplicationContext();
+        daVar.getClass();
+        fhVar.f79733c = daVar;
+        fhVar.f79734d.addAll(guVar);
+        fhVar.f79735e = C58833ax.m90833j(idVar);
+        fhVar.f79736f = kVar;
+        fhVar.f79737g = jVar;
+        fhVar.f79738h = axVar;
+        fhVar.f79739i = crVar;
+        fhVar.f79741k = axVar2;
+        fhVar.f79742l = C58833ax.m90834k(aVar);
+        fhVar.f79743m = C58833ax.m90834k(aVar2);
+        fhVar.f79744n = C58833ax.m90834k(iaVar);
+        fhVar.f79745o = axVar3;
+        fhVar.f79746p = C58833ax.m90834k(ForegroundDownloadService.class);
+        fhVar.f79740j = afVar;
+        fhVar.f79751u = axVar4;
+        fhVar.f79747q = C58833ax.m90834k(cbVar);
+        fhVar.f79749s = axVar5;
+        fhVar.f79750t = axVar6;
+        fhVar.f79732b.getClass();
+        fhVar.f79735e.getClass();
+        fhVar.f79736f.getClass();
+        fhVar.f79740j.getClass();
+        fhVar.f79737g.getClass();
+        fhVar.f79738h.getClass();
+        fhVar.f79739i.getClass();
+        fhVar.f79749s.getClass();
+        C60904dr drVar = new C60904dr(fhVar.f79733c);
+        if (fhVar.f79742l.mo56113h()) {
+            C60870cx n = C60856cj.m92905n(C47810es.m84965e(new C29410fe(fhVar)), drVar);
+            C29411ff ffVar = new C29411ff();
+            C60856cj.m92911t(n, C47810es.m84974n(ffVar), C60826bg.f164896a);
+        }
+        fhVar.f79731a.f78401a = new C28845a(fhVar.f79732b);
+        C28862c cVar = fhVar.f79731a;
+        cVar.f78403c = new C28867h(drVar);
+        cVar.f78402b = new C28864e(fhVar.f79741k, fhVar.f79739i);
+        C28787cb cbVar2 = (C28787cb) fhVar.f79747q.mo56109e(new C29412fg());
+        if (fhVar.f79743m.mo56113h()) {
+            dVar = new C29056w(fhVar.f79732b, (C29404a) fhVar.f79743m.mo56107c(), new C29044k(cbVar2, C58851bo.f156650b), cbVar2);
+        } else {
+            dVar = new C29012aa();
+        }
+        fhVar.f79748r = C58833ax.m90834k(new C28693a(fhVar.f79732b));
+        C28862c cVar2 = fhVar.f79731a;
+        cVar2.f78404d = new C28871l(fhVar.f79736f, fhVar.f79737g, dVar, fhVar.f79738h, fhVar.f79744n, fhVar.f79745o, fhVar.f79751u, fhVar.f79748r, cbVar2, fhVar.f79750t);
+        cVar2.f78405e = new C28851af(fhVar.f79733c, fhVar.f79740j);
+        C68225k.m98529a(cVar2.f78401a, C28845a.class);
+        C68225k.m98529a(cVar2.f78402b, C28864e.class);
+        C68225k.m98529a(cVar2.f78403c, C28867h.class);
+        C68225k.m98529a(cVar2.f78404d, C28871l.class);
+        C68225k.m98529a(cVar2.f78405e, C28851af.class);
+        C28845a aVar3 = cVar2.f78401a;
+        C28864e eVar = cVar2.f78402b;
+        C28867h hVar = cVar2.f78403c;
+        C28871l lVar = cVar2.f78404d;
+        C28851af afVar2 = cVar2.f78405e;
+        C69464a c = C68219e.m98519c(new C28880u(lVar));
+        C69464a c2 = C68219e.m98519c(new C28850ae(lVar));
+        C28861b bVar = new C28861b(aVar3);
+        C69464a c3 = C68219e.m98519c(new C28883x(lVar));
+        C69464a c4 = C68219e.m98519c(new C28882w(lVar));
+        C29299ly lyVar = new C29299ly(bVar, c2, c3, c4);
+        C69464a c5 = C68219e.m98519c(new C28860ao(bVar, c3));
+        C69464a c6 = C68219e.m98519c(new C28848ac(lVar));
+        C28845a aVar4 = aVar3;
+        C29238jr jrVar = new C29238jr(c4);
+        C29238jr jrVar2 = jrVar;
+        C69464a aVar5 = c3;
+        C69464a c7 = C68219e.m98519c(new C28855aj(afVar2, bVar, c5, c6, c, jrVar2, aVar5));
+        C60904dr drVar2 = drVar;
+        C69464a c8 = C68219e.m98519c(new C28868i(hVar));
+        C69464a c9 = C68219e.m98519c(new C28878s(bVar, c2, c7, c8, c4));
+        C29413fh fhVar2 = fhVar;
+        C69464a c10 = C68219e.m98519c(new C28859an(bVar, c3));
+        C28861b bVar2 = bVar;
+        C29037d dVar2 = dVar;
+        C69464a c11 = C68219e.m98519c(new C28846aa(new C29171he(bVar2, c, lyVar, c9, C68219e.m98519c(new C28876q(bVar2, c2, C68219e.m98519c(new C28853ah(afVar2, bVar, c10, c6, c, jrVar2, aVar5)), c8, c4)), c5, c10, jrVar, c6, c8, c4)));
+        C69464a c12 = C68219e.m98519c(new C28866g(eVar));
+        C69464a c13 = C68219e.m98519c(new C28885z(lVar));
+        C69464a c14 = C68219e.m98519c(new C28879t(lVar));
+        C69464a c15 = C68219e.m98519c(new C28858am(afVar2, bVar, c3));
+        C69464a aVar6 = c14;
+        C69464a aVar7 = c13;
+        C69464a c16 = C68219e.m98519c(new C28849ad(C68219e.m98519c(C28873n.f78426a)));
+        C69464a c17 = C68219e.m98519c(new C28884y(c15, c16, c8));
+        C69464a c18 = C68219e.m98519c(new C28865f(eVar));
+        C29297lw lwVar = new C29297lw(bVar2, c16, c2, c3, c8);
+        C69464a aVar8 = c18;
+        C69464a c19 = C68219e.m98519c(new C28857al(bVar, c3));
+        C29238jr jrVar3 = jrVar;
+        C69464a aVar9 = c3;
+        C69464a c20 = C68219e.m98519c(new C28877r(bVar, c16, c2, C68219e.m98519c(new C28854ai(afVar2, bVar, c19, c6, c, jrVar3, aVar9)), c8));
+        C69464a aVar10 = c12;
+        C69464a c21 = C68219e.m98519c(new C28856ak(bVar, c3));
+        C69464a aVar11 = c16;
+        C69464a c22 = C68219e.m98519c(new C28881v(new C29149gj(c, lwVar, c20, C68219e.m98519c(new C28875p(bVar, c16, c2, C68219e.m98519c(new C28852ag(afVar2, bVar, c21, c6, c, jrVar3, aVar9)), c8, c4)), c19, c21, jrVar, c6, c8, c4)));
+        C69464a c23 = C68219e.m98519c(new C28872m(lVar, bVar));
+        C69464a c24 = C68219e.m98519c(new C28847ab(lVar));
+        C29037d dVar3 = dVar2;
+        if (dVar3 instanceof C29056w) {
+            ((C29056w) dVar3).f78861a = C58833ax.m90834k((C29046m) c17.mo17428b());
+        }
+        C29360j jVar2 = new C29360j();
+        C29413fh fhVar3 = fhVar2;
+        jVar2.f79584a = fhVar3.f79732b.getApplicationContext();
+        C60904dr drVar3 = drVar2;
+        jVar2.mo34697b(drVar3);
+        jVar2.f79585b = fhVar3.f79739i;
+        if (fhVar3.f79738h.mo56113h()) {
+            jVar2.f79586c = C58833ax.m90834k((C29349ac) fhVar3.f79738h.mo56107c());
+        }
+        if (fhVar3.f79746p.mo56113h()) {
+            jVar2.f79587d = C58833ax.m90834k((Class) fhVar3.f79746p.mo56107c());
+        }
+        C29361k a = jVar2.mo34696a();
+        C60904dr drVar4 = drVar3;
+        C28845a aVar12 = aVar4;
+        Context context2 = fhVar3.f79732b;
+        Context context3 = aVar12.f78353a;
+        C68225k.m98532d(context3);
+        C28845a aVar13 = aVar12;
+        C69464a aVar14 = aVar8;
+        C69464a aVar15 = c22;
+        C69464a aVar16 = c23;
+        C69464a aVar17 = c24;
+        C29314z zVar = r45;
+        Context context4 = aVar12.f78353a;
+        C68225k.m98532d(context4);
+        C69464a aVar18 = aVar8;
+        C69464a aVar19 = c22;
+        C29314z zVar2 = new C29314z(context4, (C29118ff) c22.mo17428b(), C28863d.m53813b(aVar13, c, c2, c3, c4, c6, c8, c11, aVar10, aVar7, aVar6, c17, aVar18, aVar19), (C29293ls) c11.mo17428b(), (C29037d) c.mo17428b(), (C29662ie) aVar11.mo17428b(), (C42813k) c6.mo17428b(), (C58833ax) c3.mo17428b(), (C29658ia) c2.mo17428b(), (Executor) c8.mo17428b(), (C28787cb) c4.mo17428b());
+        C29034aw awVar = r45;
+        Context context5 = aVar12.f78353a;
+        C68225k.m98532d(context5);
+        C29034aw awVar2 = new C29034aw(context5, (C29118ff) c22.mo17428b(), C28863d.m53813b(aVar12, c, c2, c3, c4, c6, c8, c11, aVar10, aVar7, aVar6, c17, aVar18, aVar19), (C42813k) c6.mo17428b(), (C29037d) c.mo17428b(), (C29658ia) c2.mo17428b(), (C58833ax) c3.mo17428b(), (Executor) c8.mo17428b());
+        C29042i iVar = r5;
+        C29042i iVar2 = new C29042i(C28863d.m53814c(aVar12, lVar, c, c2, c3, c4, c6, c8, c11, aVar10, aVar7, aVar6, aVar11, c17, aVar14, aVar15, aVar16, aVar17), (C29118ff) c22.mo17428b(), (C29037d) c.mo17428b(), (Executor) c8.mo17428b());
+        C29059z zVar3 = r0;
+        C68225k.m98532d(aVar12.f78353a);
+        C58833ax axVar7 = (C58833ax) c3.mo17428b();
+        C29059z zVar4 = new C29059z((C29037d) c.mo17428b(), (C28787cb) c4.mo17428b(), (C29046m) c17.mo17428b());
+        new C29647hr(context2, (C29037d) c.mo17428b(), new C29211ir(context3, (C29037d) c.mo17428b(), C28863d.m53813b(aVar13, c, c2, c3, c4, c6, c8, c11, aVar10, aVar7, aVar6, c17, aVar8, c22), (C29293ls) c11.mo17428b(), C28863d.m53814c(aVar13, lVar, c, c2, c3, c4, c6, c8, c11, aVar10, aVar7, aVar6, aVar11, c17, aVar14, aVar15, aVar16, aVar17), (C29118ff) c22.mo17428b(), zVar, (C29658ia) c2.mo17428b(), awVar, iVar, zVar3, (C58833ax) c3.mo17428b(), (Executor) c8.mo17428b(), (C58833ax) c24.mo17428b(), (C28787cb) c4.mo17428b(), (C29046m) c17.mo17428b(), C28863d.m53812a(lVar, c4, c8, c22)), drVar4, fhVar3.f79734d, fhVar3.f79736f, fhVar3.f79738h, fhVar3.f79746p, a);
+        return fdVar;
+    }
+
+    /* renamed from: b */
+    public final /* bridge */ /* synthetic */ Object mo17428b() {
+        throw null;
+    }
+}

@@ -1,0 +1,67 @@
+package com.google.p4184bj.p4193c.p4197c;
+
+import com.google.android.setupcompat.p3549a.C45240c;
+import com.google.protobuf.C62935bo;
+import com.google.protobuf.C62941bu;
+import com.google.protobuf.C62942bv;
+import com.google.protobuf.C63001dt;
+import com.google.protobuf.C63010eb;
+
+/* renamed from: com.google.bj.c.c.bm */
+/* compiled from: PG */
+public final class C55966bm extends C62942bv implements C63001dt {
+
+    /* renamed from: b */
+    public static final C55966bm f149040b;
+
+    /* renamed from: d */
+    private static volatile C63010eb f149041d;
+
+    /* renamed from: a */
+    public C55944ar f149042a;
+
+    /* renamed from: c */
+    private int f149043c;
+
+    static {
+        C55966bm bmVar = new C55966bm();
+        f149040b = bmVar;
+        C62942bv.registerDefaultInstance(C55966bm.class, bmVar);
+    }
+
+    private C55966bm() {
+    }
+
+    /* access modifiers changed from: protected */
+    public final Object dynamicMethod(C62941bu buVar, Object obj, Object obj2) {
+        C62941bu buVar2 = C62941bu.GET_MEMOIZED_IS_INITIALIZED;
+        switch (buVar.ordinal()) {
+            case 0:
+                return (byte) 1;
+            case 1:
+                return null;
+            case 2:
+                return newMessageInfo(f149040b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{C45240c.f118157a, "a"});
+            case 3:
+                return new C55966bm();
+            case 4:
+                return new C55965bl();
+            case 5:
+                return f149040b;
+            case 6:
+                C63010eb ebVar = f149041d;
+                if (ebVar == null) {
+                    synchronized (C55966bm.class) {
+                        ebVar = f149041d;
+                        if (ebVar == null) {
+                            ebVar = new C62935bo(f149040b);
+                            f149041d = ebVar;
+                        }
+                    }
+                }
+                return ebVar;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

@@ -1,0 +1,22 @@
+package com.google.android.apps.gsa.nga.shared.p6345h.p6346a;
+
+import com.google.android.apps.gsa.nga.shared.p6345h.C81239ad;
+import com.google.android.apps.gsa.shared.util.p7159c.C90877ak;
+import com.google.common.util.concurrent.C60870cx;
+import p3186j$.util.function.Supplier;
+
+/* renamed from: com.google.android.apps.gsa.nga.shared.h.a.ds */
+/* compiled from: PG */
+public final /* synthetic */ class C81170ds implements Supplier {
+
+    /* renamed from: a */
+    public final /* synthetic */ C60870cx f222298a;
+
+    public /* synthetic */ C81170ds(C60870cx cxVar) {
+        this.f222298a = cxVar;
+    }
+
+    public final Object get() {
+        return (C81239ad) C90877ak.m148474h(this.f222298a);
+    }
+}

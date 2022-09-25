@@ -1,0 +1,60 @@
+package com.google.assistant.p3897e.p3917i.p3918a;
+
+import com.google.protobuf.C62935bo;
+import com.google.protobuf.C62941bu;
+import com.google.protobuf.C62942bv;
+import com.google.protobuf.C63001dt;
+import com.google.protobuf.C63010eb;
+
+/* renamed from: com.google.assistant.e.i.a.my */
+/* compiled from: PG */
+public final class C51579my extends C62942bv implements C63001dt {
+
+    /* renamed from: a */
+    public static final C51579my f134428a;
+
+    /* renamed from: b */
+    private static volatile C63010eb f134429b;
+
+    static {
+        C51579my myVar = new C51579my();
+        f134428a = myVar;
+        C62942bv.registerDefaultInstance(C51579my.class, myVar);
+    }
+
+    private C51579my() {
+    }
+
+    /* access modifiers changed from: protected */
+    public final Object dynamicMethod(C62941bu buVar, Object obj, Object obj2) {
+        C62941bu buVar2 = C62941bu.GET_MEMOIZED_IS_INITIALIZED;
+        switch (buVar.ordinal()) {
+            case 0:
+                return (byte) 1;
+            case 1:
+                return null;
+            case 2:
+                return newMessageInfo(f134428a, "\u0000\u0000", (Object[]) null);
+            case 3:
+                return new C51579my();
+            case 4:
+                return new C51578mx();
+            case 5:
+                return f134428a;
+            case 6:
+                C63010eb ebVar = f134429b;
+                if (ebVar == null) {
+                    synchronized (C51579my.class) {
+                        ebVar = f134429b;
+                        if (ebVar == null) {
+                            ebVar = new C62935bo(f134428a);
+                            f134429b = ebVar;
+                        }
+                    }
+                }
+                return ebVar;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

@@ -1,0 +1,16 @@
+package com.google.android.libraries.search.silk.web.collections;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* compiled from: PG */
+final class AutoValue_SilkCollectionsV2PostMessageConfig extends C$AutoValue_SilkCollectionsV2PostMessageConfig {
+    public static final Parcelable.Creator CREATOR = new C40733b();
+
+    public final int describeContents() {
+        return 0;
+    }
+
+    public final void writeToParcel(Parcel parcel, int i) {
+    }
+}

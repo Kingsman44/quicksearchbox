@@ -1,0 +1,28 @@
+package com.google.android.apps.gsa.search.core.p6519al.p6674cu.p6675a;
+
+import com.google.android.apps.gsa.p8883x.C118826c;
+import com.google.android.apps.gsa.search.core.p6519al.p6674cu.C85211a;
+import com.google.android.apps.gsa.search.core.service.p6852g.C86724d;
+import com.google.android.apps.gsa.search.core.service.p6852g.C86731k;
+import com.google.android.apps.gsa.search.core.service.p6852g.C86732l;
+import com.google.android.apps.gsa.search.shared.actions.SearchError;
+import com.google.common.util.concurrent.C60870cx;
+
+/* renamed from: com.google.android.apps.gsa.search.core.al.cu.a.e */
+/* compiled from: PG */
+public final class C85216e extends C86731k {
+
+    /* renamed from: c */
+    private final SearchError f230977c;
+
+    public C85216e(SearchError searchError) {
+        super("searchplate", "searchplate::showErrorInSearchPlate", C86732l.FIRE_AND_FORGET, C86724d.IDLE);
+        this.f230977c = searchError;
+    }
+
+    /* renamed from: g */
+    public final C60870cx mo78371g(Object obj) {
+        ((C85211a) obj).mo78794e(this.f230977c);
+        return C118826c.f331423b;
+    }
+}

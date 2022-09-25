@@ -1,0 +1,13 @@
+package com.google.nlp.p4730a.p4734b;
+
+import com.evernote.android.state.BuildConfig;
+import com.google.protobuf.C62994dm;
+import com.google.protobuf.C63066gd;
+
+/* renamed from: com.google.nlp.a.b.j */
+/* compiled from: PG */
+final class C62773j {
+
+    /* renamed from: a */
+    static final C62994dm f169519a = new C62994dm(C63066gd.STRING, BuildConfig.FLAVOR, C63066gd.MESSAGE, C62771h.f169514c);
+}

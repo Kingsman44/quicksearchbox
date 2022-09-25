@@ -1,0 +1,23 @@
+package com.google.protos.p5127o.p5128a;
+
+import com.google.android.libraries.assistant.gallium.framework.C18213aq;
+import com.google.android.libraries.assistant.gallium.framework.C18214ar;
+import com.google.nlp.p4730a.C62801u;
+import com.google.protobuf.MessageLite;
+import com.google.protos.p5127o.C65697w;
+
+/* renamed from: com.google.protos.o.a.ab */
+/* compiled from: PG */
+public final /* synthetic */ class C65609ab implements C18213aq {
+
+    /* renamed from: a */
+    public static final /* synthetic */ C65609ab f178313a = new C65609ab();
+
+    private /* synthetic */ C65609ab() {
+    }
+
+    /* renamed from: a */
+    public final C65697w mo23695a(MessageLite messageLite) {
+        return C18214ar.m35470c((C62801u) messageLite, "type.googleapis.com/nlp_generation.RealizationResponse");
+    }
+}

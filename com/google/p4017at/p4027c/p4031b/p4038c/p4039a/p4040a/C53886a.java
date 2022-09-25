@@ -1,0 +1,48 @@
+package com.google.p4017at.p4027c.p4031b.p4038c.p4039a.p4040a;
+
+import com.google.android.libraries.performance.primes.C31164au;
+import com.google.common.p4522b.C58528ij;
+import com.google.common.p4522b.C58759qy;
+import com.google.frameworks.client.data.android.C61372an;
+import com.google.frameworks.client.data.android.C61373ao;
+import java.util.Set;
+
+/* renamed from: com.google.at.c.b.c.a.a.a */
+/* compiled from: PG */
+final class C53886a implements C61372an {
+
+    /* renamed from: b */
+    private final C31164au f141403b = C31164au.m58091a(C53889d.f141409a, C31164au.m58092b("CreateReaction"));
+
+    /* renamed from: c */
+    private final C58528ij f141404c = new C58759qy("https://www.googleapis.com/auth/googlenow");
+
+    /* renamed from: a */
+    public final C31164au mo17184a() {
+        return this.f141403b;
+    }
+
+    /* renamed from: b */
+    public final C61373ao mo17185b() {
+        return C53889d.f141413e;
+    }
+
+    /* renamed from: c */
+    public final Set mo17186c() {
+        return this.f141404c.isEmpty() ? C53889d.f141413e.f141417g : this.f141404c;
+    }
+
+    /* renamed from: d */
+    public final boolean mo17187d() {
+        return true;
+    }
+
+    /* renamed from: e */
+    public final int mo17188e() {
+        return 3;
+    }
+
+    public final String toString() {
+        return this.f141403b.f84029a;
+    }
+}

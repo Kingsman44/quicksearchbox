@@ -1,0 +1,69 @@
+package com.google.android.libraries.assistant.auto.jumpboost.gearhead.grpc.p687a;
+
+import com.google.protobuf.C62935bo;
+import com.google.protobuf.C62941bu;
+import com.google.protobuf.C62942bv;
+import com.google.protobuf.C63001dt;
+import com.google.protobuf.C63010eb;
+
+/* renamed from: com.google.android.libraries.assistant.auto.jumpboost.gearhead.grpc.a.an */
+/* compiled from: PG */
+public final class C11683an extends C62942bv implements C63001dt {
+
+    /* renamed from: c */
+    public static final C11683an f37675c;
+
+    /* renamed from: e */
+    private static volatile C63010eb f37676e;
+
+    /* renamed from: a */
+    public C11712i f37677a;
+
+    /* renamed from: b */
+    public int f37678b;
+
+    /* renamed from: d */
+    private int f37679d;
+
+    static {
+        C11683an anVar = new C11683an();
+        f37675c = anVar;
+        C62942bv.registerDefaultInstance(C11683an.class, anVar);
+    }
+
+    private C11683an() {
+    }
+
+    /* access modifiers changed from: protected */
+    public final Object dynamicMethod(C62941bu buVar, Object obj, Object obj2) {
+        C62941bu buVar2 = C62941bu.GET_MEMOIZED_IS_INITIALIZED;
+        switch (buVar.ordinal()) {
+            case 0:
+                return (byte) 1;
+            case 1:
+                return null;
+            case 2:
+                return newMessageInfo(f37675c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002င\u0001", new Object[]{"d", "a", "b"});
+            case 3:
+                return new C11683an();
+            case 4:
+                return new C11682am();
+            case 5:
+                return f37675c;
+            case 6:
+                C63010eb ebVar = f37676e;
+                if (ebVar == null) {
+                    synchronized (C11683an.class) {
+                        ebVar = f37676e;
+                        if (ebVar == null) {
+                            ebVar = new C62935bo(f37675c);
+                            f37676e = ebVar;
+                        }
+                    }
+                }
+                return ebVar;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

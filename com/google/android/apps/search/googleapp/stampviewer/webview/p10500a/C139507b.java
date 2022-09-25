@@ -1,0 +1,268 @@
+package com.google.android.apps.search.googleapp.stampviewer.webview.p10500a;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.p031v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import androidx.cardview.widget.CardView;
+import androidx.lifecycle.C2384o;
+import androidx.lifecycle.C2393x;
+import com.bumptech.glide.C6007z;
+import com.bumptech.glide.load.p293a.C5731x;
+import com.bumptech.glide.p287f.C5593j;
+import com.google.android.apps.search.googleapp.stampviewer.p10494f.C139392b;
+import com.google.android.apps.search.googleapp.stampviewer.p10499j.C139435b;
+import com.google.android.googlequicksearchbox.R;
+import com.google.android.libraries.p1623at.p1632e.C19559g;
+import com.google.android.libraries.web.contrib.favicon.C43548g;
+import com.google.android.libraries.web.contrib.favicon.C43549h;
+import com.google.android.libraries.web.contrib.favicon.internal.p3382a.C43553b;
+import com.google.android.libraries.web.contrib.favicon.internal.p3382a.C43554c;
+import com.google.android.libraries.web.shared.p3441a.C44078b;
+import com.google.apps.tiktok.account.AccountId;
+import com.google.apps.tiktok.dataservice.C46719bc;
+import com.google.apps.tiktok.dataservice.C46778cv;
+import com.google.apps.tiktok.dataservice.C46801dp;
+import com.google.apps.tiktok.inject.C47200b;
+import com.google.apps.tiktok.inject.C47214c;
+import com.google.apps.tiktok.inject.C47231d;
+import com.google.apps.tiktok.inject.baseclasses.TracedFragmentLifecycle;
+import com.google.apps.tiktok.inject.p3657c.p3658a.C47222f;
+import com.google.apps.tiktok.inject.p3659d.C47232a;
+import com.google.apps.tiktok.inject.p3659d.C47233b;
+import com.google.apps.tiktok.inject.p3659d.C47236e;
+import com.google.apps.tiktok.inject.p3659d.C47243l;
+import com.google.apps.tiktok.inject.p3659d.C47244m;
+import com.google.apps.tiktok.inject.p3660e.p3661a.C47247a;
+import com.google.apps.tiktok.media.C47449e;
+import com.google.apps.tiktok.tracing.C47515ab;
+import com.google.apps.tiktok.tracing.C47570bu;
+import com.google.apps.tiktok.tracing.C47573bx;
+import com.google.apps.tiktok.tracing.C47810es;
+import com.google.apps.tiktok.tracing.C47816ey;
+import com.google.apps.tiktok.tracing.C47831fm;
+import com.google.apps.tiktok.tracing.contrib.p3703e.C47658b;
+import com.google.common.util.concurrent.C60888db;
+import com.google.p4283bv.p4287b.p4288a.p4289a.p4290a.C56610b;
+import dagger.hilt.android.internal.managers.C68324h;
+import dagger.hilt.p5299a.C68288b;
+import java.util.Locale;
+
+/* renamed from: com.google.android.apps.search.googleapp.stampviewer.webview.a.b */
+/* compiled from: PG */
+public final class C139507b extends C139513g implements C47231d, C68288b, C47200b, C47233b, C47570bu {
+
+    /* renamed from: a */
+    private C139508c f379313a;
+
+    /* renamed from: c */
+    private Context f379314c;
+
+    /* renamed from: d */
+    private final C2393x f379315d = new C2393x(this);
+
+    /* renamed from: e */
+    private boolean f379316e;
+
+    @Deprecated
+    public C139507b() {
+        C19559g.m37304c();
+    }
+
+    /* renamed from: a */
+    public static C139507b m226733a(AccountId accountId, C139392b bVar) {
+        C139507b bVar2 = new C139507b();
+        C68324h.m98669f(bVar2);
+        C47247a.m84047b(bVar2, accountId);
+        C47243l.m84039a(bVar2, bVar);
+        return bVar2;
+    }
+
+    /* renamed from: b */
+    public final C139508c mo17754z() {
+        C139508c cVar = this.f379313a;
+        if (cVar == null) {
+            throw new IllegalStateException("peer() called before initialized.");
+        } else if (!this.f379316e) {
+            return cVar;
+        } else {
+            throw new IllegalStateException("peer() called after destroyed.");
+        }
+    }
+
+    /* access modifiers changed from: protected */
+    /* renamed from: d */
+    public final /* synthetic */ C47222f mo115015d() {
+        return C47244m.m84043e(this);
+    }
+
+    @Deprecated
+    /* renamed from: e */
+    public final Context mo17857e() {
+        if (this.f379314c == null) {
+            this.f379314c = new C47236e((Fragment) this, super.getContext());
+        }
+        return this.f379314c;
+    }
+
+    /* renamed from: g */
+    public final C47816ey mo17859g() {
+        return this.f122869b.f123354b;
+    }
+
+    public final Context getContext() {
+        if (super.getContext() == null) {
+            return null;
+        }
+        return mo17857e();
+    }
+
+    public final C2384o getLifecycle() {
+        return this.f379315d;
+    }
+
+    /* renamed from: h */
+    public final Locale mo17860h() {
+        return C47232a.m84025a(this);
+    }
+
+    /* renamed from: i */
+    public final void mo17861i(C47816ey eyVar, boolean z) {
+        this.f122869b.mo51380h(eyVar, z);
+    }
+
+    public final void onAttach(Activity activity) {
+        this.f122869b.mo51381i();
+        try {
+            super.onAttach(activity);
+            C47831fm.m85019n();
+            return;
+        } catch (Throwable th) {
+            C139506a.m226732a(th, th);
+        }
+        throw th;
+    }
+
+    public final View onCreateView(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
+        this.f122869b.mo51381i();
+        try {
+            mo51119t(layoutInflater, viewGroup, bundle);
+            C139508c b = mo17754z();
+            View inflate = layoutInflater.inflate(R.layout.googleapp_stamp_viewer_badge, viewGroup, false);
+            ImageView imageView = (ImageView) inflate.findViewById(R.id.googleapp_stamp_viewer_badge_image);
+            C47449e eVar = b.f379319c;
+            C56610b bVar = b.f379324h.f379032b;
+            if (bVar == null) {
+                bVar = C56610b.f151140k;
+            }
+            ((C6007z) eVar.mo51286a().mo11873k(bVar.f151145d).mo11963P(R.drawable.googleapp_stamp_viewer_fallback_badge)).mo11982o(C5593j.m14520d(C5731x.f17282a).mo11955H()).mo12439a(new C47658b(b.f379317a, b.f379323g)).mo12454r(imageView);
+            C46801dp dpVar = b.f379322f;
+            C43549h hVar = b.f379321e;
+            if (!hVar.f113710d) {
+                C43554c cVar = hVar.f113709c;
+                C44078b bVar2 = (C44078b) cVar.f113721a.mo17428b();
+                bVar2.getClass();
+                C46778cv cvVar = (C46778cv) cVar.f113722b.mo17428b();
+                cvVar.getClass();
+                C60888db dbVar = (C60888db) cVar.f113723c.mo17428b();
+                dbVar.getClass();
+                C43553b bVar3 = new C43553b(bVar2, cvVar, dbVar);
+                hVar.f113711e.mo46475b(R.id.favicon_navigation_listener, bVar3);
+                hVar.f113712f.mo46476c(R.id.favicon_navigation_listener, bVar3);
+                hVar.f113710d = true;
+            }
+            dpVar.mo50707a(new C46719bc(hVar.f113707a, new C43548g(hVar), "com.google.android.libraries.web.contrib.favicon.FaviconDataService_DataSource"), b.f379318b);
+            if (C139435b.m226584a(b.f379324h).isPresent()) {
+                ((CardView) inflate.findViewById(R.id.googleapp_stamp_viewer_badge_card)).mo4475e((float) viewGroup.getLayoutParams().width);
+            }
+            C47831fm.m85019n();
+            return inflate;
+        } catch (Throwable th) {
+            C139506a.m226732a(th, th);
+        }
+        throw th;
+    }
+
+    public final void onDetach() {
+        C47573bx d = this.f122869b.mo51376d();
+        try {
+            mo51114o();
+            this.f379316e = true;
+            d.close();
+            return;
+        } catch (Throwable th) {
+            C139506a.m226732a(th, th);
+        }
+        throw th;
+    }
+
+    public final LayoutInflater onGetLayoutInflater(Bundle bundle) {
+        this.f122869b.mo51381i();
+        try {
+            LayoutInflater onGetLayoutInflater = super.onGetLayoutInflater(bundle);
+            LayoutInflater cloneInContext = onGetLayoutInflater.cloneInContext(new C47236e((Fragment) this, onGetLayoutInflater));
+            C47831fm.m85019n();
+            return cloneInContext;
+        } catch (Throwable th) {
+            C139506a.m226732a(th, th);
+        }
+        throw th;
+    }
+
+    public final void setRetainInstance(boolean z) {
+        if (z) {
+            throw new IllegalArgumentException("Peered fragments cannot be retained, to avoid memory leaks. If you need a retained fragment, you should subclass Fragment directly. See http://go/tiktok-conformance-violations/FRAGMENT_SET_RETAIN_INSTANCE");
+        }
+    }
+
+    public final void startActivity(Intent intent) {
+        if (C47214c.m83984a(intent, getContext().getApplicationContext())) {
+            int i = C47810es.f123822b;
+        }
+        super.startActivity(intent);
+    }
+
+    public final void onAttach(Context context) {
+        this.f122869b.mo51381i();
+        try {
+            if (!this.f379316e) {
+                super.onAttach(context);
+                if (this.f379313a == null) {
+                    this.f379313a = ((C139511e) mo115018f().mo17653jN()).mo115016dO();
+                    super.getLifecycle().mo5790b(new TracedFragmentLifecycle(this.f122869b, this.f379315d));
+                }
+                Fragment parentFragment = getParentFragment();
+                if (parentFragment instanceof C47570bu) {
+                    C47515ab abVar = this.f122869b;
+                    if (abVar.f123354b == null) {
+                        abVar.mo51380h(((C47570bu) parentFragment).mo17859g(), true);
+                    }
+                }
+                C47831fm.m85019n();
+                return;
+            }
+            throw new IllegalStateException("A Fragment cannot be attached more than once. Instead, create a new Fragment instance.");
+        } catch (ClassCastException e) {
+            throw new IllegalStateException("Missing entry point. If you're in a test with explicit entry points specified in your @TestRoot, check that you're not missing the one for this class.", e);
+        } catch (Throwable th) {
+            try {
+                C47831fm.m85019n();
+            } catch (Throwable th2) {
+                C139506a.m226732a(th, th2);
+            }
+            throw th;
+        }
+    }
+
+    public final void startActivity(Intent intent, Bundle bundle) {
+        if (C47214c.m83984a(intent, getContext().getApplicationContext())) {
+            int i = C47810es.f123822b;
+        }
+        super.startActivity(intent, bundle);
+    }
+}

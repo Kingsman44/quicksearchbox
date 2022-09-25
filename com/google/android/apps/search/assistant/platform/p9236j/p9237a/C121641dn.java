@@ -1,0 +1,29 @@
+package com.google.android.apps.search.assistant.platform.p9236j.p9237a;
+
+import kotlinx.coroutines.p5574b.C71587n;
+import kotlinx.coroutines.p5574b.C71588o;
+import p5462h.C69788q;
+import p5462h.p5466c.C69577g;
+import p5462h.p5466c.p5467a.C69554a;
+
+/* renamed from: com.google.android.apps.search.assistant.platform.j.a.dn */
+/* compiled from: PG */
+public final class C121641dn implements C71587n {
+
+    /* renamed from: a */
+    final /* synthetic */ C71587n f337495a;
+
+    /* renamed from: b */
+    final /* synthetic */ C121647dt f337496b;
+
+    public C121641dn(C71587n nVar, C121647dt dtVar) {
+        this.f337495a = nVar;
+        this.f337496b = dtVar;
+    }
+
+    /* renamed from: mp */
+    public final Object mo38165mp(C71588o oVar, C69577g gVar) {
+        Object mp = this.f337495a.mo38165mp(new C121640dm(oVar, this.f337496b), gVar);
+        return mp == C69554a.COROUTINE_SUSPENDED ? mp : C69788q.f186170a;
+    }
+}

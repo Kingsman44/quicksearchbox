@@ -1,0 +1,27 @@
+package com.google.android.apps.gsa.staticplugins.deeplink.p7789b;
+
+import com.google.android.apps.gsa.shared.util.p7159c.C90919bp;
+import com.google.common.p4526f.C59052c;
+import com.google.common.p4526f.C59104x;
+import com.google.common.p4526f.p4527a.C58975e;
+
+/* renamed from: com.google.android.apps.gsa.staticplugins.deeplink.b.b */
+/* compiled from: PG */
+public final /* synthetic */ class C99475b implements C90919bp {
+
+    /* renamed from: a */
+    public final /* synthetic */ C99476c f278359a;
+
+    public /* synthetic */ C99475b(C99476c cVar) {
+        this.f278359a = cVar;
+    }
+
+    /* renamed from: a */
+    public final void mo17870a(Object obj) {
+        C99476c cVar = this.f278359a;
+        C59104x c = C99476c.f278360a.mo56225c();
+        c.mo56378ag(C58975e.f156826a, "DeeplinkSessionControl");
+        ((C59052c) ((C59052c) ((C59052c) c).mo56382g((Exception) obj)).mo56372aa(19232)).mo56386p("Failed to get result from app actions work");
+        cVar.mo91476a();
+    }
+}

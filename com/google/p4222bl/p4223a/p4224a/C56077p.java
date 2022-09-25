@@ -1,0 +1,67 @@
+package com.google.p4222bl.p4223a.p4224a;
+
+import com.evernote.android.state.BuildConfig;
+import com.google.protobuf.C62935bo;
+import com.google.protobuf.C62941bu;
+import com.google.protobuf.C62942bv;
+import com.google.protobuf.C63001dt;
+import com.google.protobuf.C63010eb;
+
+/* renamed from: com.google.bl.a.a.p */
+/* compiled from: PG */
+public final class C56077p extends C62942bv implements C63001dt {
+
+    /* renamed from: c */
+    public static final C56077p f149413c;
+
+    /* renamed from: d */
+    private static volatile C63010eb f149414d;
+
+    /* renamed from: a */
+    public String f149415a = BuildConfig.FLAVOR;
+
+    /* renamed from: b */
+    public C56062af f149416b;
+
+    static {
+        C56077p pVar = new C56077p();
+        f149413c = pVar;
+        C62942bv.registerDefaultInstance(C56077p.class, pVar);
+    }
+
+    private C56077p() {
+    }
+
+    /* access modifiers changed from: protected */
+    public final Object dynamicMethod(C62941bu buVar, Object obj, Object obj2) {
+        C62941bu buVar2 = C62941bu.GET_MEMOIZED_IS_INITIALIZED;
+        switch (buVar.ordinal()) {
+            case 0:
+                return (byte) 1;
+            case 1:
+                return null;
+            case 2:
+                return newMessageInfo(f149413c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȉ\u0002\t", new Object[]{"a", "b"});
+            case 3:
+                return new C56077p();
+            case 4:
+                return new C56076o();
+            case 5:
+                return f149413c;
+            case 6:
+                C63010eb ebVar = f149414d;
+                if (ebVar == null) {
+                    synchronized (C56077p.class) {
+                        ebVar = f149414d;
+                        if (ebVar == null) {
+                            ebVar = new C62935bo(f149413c);
+                            f149414d = ebVar;
+                        }
+                    }
+                }
+                return ebVar;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

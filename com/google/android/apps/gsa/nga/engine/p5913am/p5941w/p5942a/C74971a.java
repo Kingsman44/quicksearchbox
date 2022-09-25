@@ -1,0 +1,24 @@
+package com.google.android.apps.gsa.nga.engine.p5913am.p5941w.p5942a;
+
+import com.google.android.apps.gsa.nga.engine.p5913am.p5941w.C74970a;
+import com.google.android.libraries.gsa.p1876k.C22869e;
+
+/* renamed from: com.google.android.apps.gsa.nga.engine.am.w.a.a */
+/* compiled from: PG */
+public final /* synthetic */ class C74971a implements C22869e {
+
+    /* renamed from: a */
+    public final /* synthetic */ C74975e f209189a;
+
+    public /* synthetic */ C74971a(C74975e eVar) {
+        this.f209189a = eVar;
+    }
+
+    public final void run() {
+        C74975e eVar = this.f209189a;
+        eVar.f209195a.size();
+        for (C74970a e : eVar.f209195a) {
+            e.mo71357e();
+        }
+    }
+}

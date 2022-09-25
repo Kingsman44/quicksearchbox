@@ -1,0 +1,75 @@
+package com.google.android.apps.gsa.shared.logger.p7055e;
+
+import com.google.android.setupcompat.p3549a.C45240c;
+import com.google.common.p4552o.C59792ft;
+import com.google.protobuf.C62935bo;
+import com.google.protobuf.C62941bu;
+import com.google.protobuf.C62942bv;
+import com.google.protobuf.C62971cq;
+import com.google.protobuf.C63001dt;
+import com.google.protobuf.C63010eb;
+
+/* renamed from: com.google.android.apps.gsa.shared.logger.e.b */
+/* compiled from: PG */
+public final class C89905b extends C62942bv implements C63001dt {
+
+    /* renamed from: e */
+    public static final C89905b f246328e;
+
+    /* renamed from: f */
+    private static volatile C63010eb f246329f;
+
+    /* renamed from: a */
+    public int f246330a;
+
+    /* renamed from: b */
+    public C62971cq f246331b = emptyProtobufList();
+
+    /* renamed from: c */
+    public long f246332c;
+
+    /* renamed from: d */
+    public int f246333d;
+
+    static {
+        C89905b bVar = new C89905b();
+        f246328e = bVar;
+        C62942bv.registerDefaultInstance(C89905b.class, bVar);
+    }
+
+    private C89905b() {
+    }
+
+    /* access modifiers changed from: protected */
+    public final Object dynamicMethod(C62941bu buVar, Object obj, Object obj2) {
+        C62941bu buVar2 = C62941bu.GET_MEMOIZED_IS_INITIALIZED;
+        switch (buVar.ordinal()) {
+            case 0:
+                return (byte) 1;
+            case 1:
+                return null;
+            case 2:
+                return newMessageInfo(f246328e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဃ\u0000\u0003င\u0001", new Object[]{"a", "b", C59792ft.class, C45240c.f118157a, "d"});
+            case 3:
+                return new C89905b();
+            case 4:
+                return new C89887a();
+            case 5:
+                return f246328e;
+            case 6:
+                C63010eb ebVar = f246329f;
+                if (ebVar == null) {
+                    synchronized (C89905b.class) {
+                        ebVar = f246329f;
+                        if (ebVar == null) {
+                            ebVar = new C62935bo(f246328e);
+                            f246329f = ebVar;
+                        }
+                    }
+                }
+                return ebVar;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

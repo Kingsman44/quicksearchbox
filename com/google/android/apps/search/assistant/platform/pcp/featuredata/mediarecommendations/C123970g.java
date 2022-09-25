@@ -1,0 +1,93 @@
+package com.google.android.apps.search.assistant.platform.pcp.featuredata.mediarecommendations;
+
+import com.google.android.apps.search.assistant.verticals.ambient.p9915e.C130603a;
+import com.google.assistant.p3886c.C50690ab;
+import com.google.assistant.p3897e.p3921j.C52560wg;
+import com.google.common.p4526f.p4527a.C58970a;
+import com.google.common.p4526f.p4527a.C58974d;
+import com.google.protobuf.C63088z;
+import p3186j$.util.Optional;
+
+/* renamed from: com.google.android.apps.search.assistant.platform.pcp.featuredata.mediarecommendations.g */
+/* compiled from: PG */
+public final class C123970g implements C123976m {
+
+    /* renamed from: a */
+    private final C52560wg f342426a;
+
+    /* renamed from: b */
+    private final C52560wg f342427b;
+
+    /* renamed from: c */
+    private final C50690ab f342428c;
+
+    /* renamed from: d */
+    private final C123978o f342429d;
+
+    /* renamed from: e */
+    private final C58974d f342430e;
+
+    /* renamed from: f */
+    private Optional f342431f;
+
+    public C123970g(C52560wg wgVar, C52560wg wgVar2, C50690ab abVar, C123978o oVar, C130603a aVar) {
+        this.f342426a = wgVar;
+        this.f342427b = wgVar2;
+        this.f342428c = abVar;
+        this.f342429d = oVar;
+        this.f342430e = aVar.mo109740b(this);
+        this.f342431f = C123978o.m203353b(wgVar);
+    }
+
+    /* renamed from: a */
+    public final C50690ab mo106206a() {
+        return this.f342428c;
+    }
+
+    /* renamed from: b */
+    public final C52560wg mo106207b() {
+        return this.f342426a;
+    }
+
+    /* renamed from: c */
+    public final /* synthetic */ Optional mo106208c() {
+        return C123975l.m203337a(this);
+    }
+
+    /* renamed from: d */
+    public final Optional mo106209d() {
+        return this.f342431f;
+    }
+
+    /* renamed from: e */
+    public final String mo106210e(int i) {
+        String uri = this.f342429d.mo106222a(this.f342427b, i, false).toUri(1);
+        ((C58970a) ((C58970a) this.f342430e.mo56224b()).mo56372aa(35305)).mo56389s("#generateIntentUri: %s", uri);
+        return uri;
+    }
+
+    /* renamed from: f */
+    public final /* synthetic */ String mo106211f() {
+        return C123975l.m203338b(this);
+    }
+
+    /* renamed from: g */
+    public final /* synthetic */ String mo106212g() {
+        return C123975l.m203339c(this);
+    }
+
+    /* renamed from: h */
+    public final /* synthetic */ String mo106213h() {
+        return C123975l.m203340d(this);
+    }
+
+    /* renamed from: i */
+    public final /* synthetic */ String mo106214i() {
+        return C123975l.m203341e(this);
+    }
+
+    /* renamed from: j */
+    public final void mo106215j(C63088z zVar) {
+        this.f342431f = Optional.m71637of(zVar);
+    }
+}

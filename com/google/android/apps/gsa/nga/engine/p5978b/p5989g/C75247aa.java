@@ -1,0 +1,8 @@
+package com.google.android.apps.gsa.nga.engine.p5978b.p5989g;
+
+/* renamed from: com.google.android.apps.gsa.nga.engine.b.g.aa */
+/* compiled from: PG */
+public interface C75247aa {
+    /* renamed from: a */
+    void mo71171a();
+}

@@ -1,0 +1,25 @@
+package com.google.assistant.p3931f.p3942e;
+
+import android.os.Bundle;
+import android.os.Parcel;
+import com.google.android.p445a.C8849b;
+import com.google.android.p445a.C8850c;
+
+/* renamed from: com.google.assistant.f.e.a */
+/* compiled from: PG */
+public abstract class C52920a extends C8849b implements C52923b {
+    public C52920a() {
+        super("com.google.assistant.appactions.widgets.IWidgetExtensionSender");
+    }
+
+    /* access modifiers changed from: protected */
+    public final boolean dispatchTransaction(int i, Parcel parcel, Parcel parcel2, int i2) {
+        if (i != 1) {
+            return false;
+        }
+        enforceNoDataAvail(parcel);
+        mo22098a((Bundle) C8850c.m23492a(parcel, Bundle.CREATOR));
+        parcel2.writeNoException();
+        return true;
+    }
+}

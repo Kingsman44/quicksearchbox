@@ -1,0 +1,11 @@
+package com.google.android.apps.gsa.staticplugins.bisto.p7459aa.p7461b;
+
+import com.google.common.p4526f.C59071e;
+
+/* renamed from: com.google.android.apps.gsa.staticplugins.bisto.aa.b.f */
+/* compiled from: PG */
+public final class C94750f {
+
+    /* renamed from: a */
+    public static final C59071e f264970a = C59071e.m91332i("com.google.android.apps.gsa.staticplugins.bisto.aa.b.f");
+}

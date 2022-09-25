@@ -1,0 +1,52 @@
+package com.google.android.apps.search.assistant.surfaces.dictation.service.p9461n.p9463b.p9464a.p9465a;
+
+import com.google.android.apps.search.assistant.surfaces.dictation.p9427a.C125059an;
+import com.google.android.apps.search.assistant.surfaces.dictation.p9427a.C125061ap;
+import com.google.android.apps.search.assistant.surfaces.dictation.p9427a.C125087bo;
+import com.google.android.apps.search.assistant.surfaces.dictation.p9427a.C125089bq;
+import com.google.android.apps.search.assistant.surfaces.dictation.service.p9478r.C126286d;
+import com.google.common.p4526f.C59071e;
+import com.google.common.util.concurrent.C60870cx;
+import com.google.common.util.concurrent.C60931s;
+import p5488io.grpc.C70335df;
+import p5488io.grpc.C70337dh;
+import p5488io.grpc.C70338di;
+import p5488io.grpc.C70888j;
+import p5488io.grpc.p5531h.p5532a.C70850d;
+import p5488io.grpc.p5533i.C70876o;
+
+/* renamed from: com.google.android.apps.search.assistant.surfaces.dictation.service.n.b.a.a.g */
+/* compiled from: PG */
+public final /* synthetic */ class C125978g implements C60931s {
+
+    /* renamed from: a */
+    public final /* synthetic */ C125059an f347209a;
+
+    public /* synthetic */ C125978g(C125059an anVar) {
+        this.f347209a = anVar;
+    }
+
+    public final C60870cx apply(Object obj) {
+        C125059an anVar = this.f347209a;
+        C59071e eVar = C125986o.f347218a;
+        C125087bo a = ((C126286d) obj).mo107506a();
+        C70888j jVar = a.f189039a;
+        C70338di diVar = C125089bq.f345083e;
+        if (diVar == null) {
+            synchronized (C125089bq.class) {
+                diVar = C125089bq.f345083e;
+                if (diVar == null) {
+                    C70335df d = C70338di.m102603d();
+                    d.f187487c = C70337dh.UNARY;
+                    d.f187488d = C70338di.m102602c("java.com.google.android.apps.search.assistant.surfaces.dictation.proto.KeyboardDictationService", "GetConceptEmojis");
+                    d.f187489e = true;
+                    d.f187485a = C70850d.m103697c(C125059an.f345031b);
+                    d.f187486b = C70850d.m103697c(C125061ap.f345034b);
+                    diVar = d.mo62040a();
+                    C125089bq.f345083e = diVar;
+                }
+            }
+        }
+        return C70876o.m103760a(jVar.mo39510a(diVar, a.f189040b), anVar);
+    }
+}

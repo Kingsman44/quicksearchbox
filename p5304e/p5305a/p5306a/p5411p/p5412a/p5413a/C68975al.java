@@ -1,0 +1,15 @@
+package p5304e.p5305a.p5306a.p5411p.p5412a.p5413a;
+
+import p5460g.p5461a.C69464a;
+
+/* renamed from: e.a.a.p.a.a.al */
+/* compiled from: PG */
+public final class C68975al {
+
+    /* renamed from: a */
+    public final C69464a f185261a;
+
+    public C68975al(C69464a aVar) {
+        this.f185261a = aVar;
+    }
+}

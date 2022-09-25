@@ -1,0 +1,8 @@
+package com.google.android.apps.search.assistant.surfaces.voice.titan.p9752ui.p9757c;
+
+/* renamed from: com.google.android.apps.search.assistant.surfaces.voice.titan.ui.c.q */
+/* compiled from: PG */
+public enum C128842q {
+    HIDDEN,
+    VISIBLE
+}

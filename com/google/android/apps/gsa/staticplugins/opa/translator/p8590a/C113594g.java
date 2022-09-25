@@ -1,0 +1,37 @@
+package com.google.android.apps.gsa.staticplugins.opa.translator.p8590a;
+
+import android.widget.RelativeLayout;
+import com.google.android.apps.gsa.shared.logger.C89949q;
+import com.google.android.apps.gsa.staticplugins.opa.translator.util.C113670av;
+import com.google.android.libraries.logging.C28285c;
+import com.google.common.p4526f.C59052c;
+import com.google.common.p4526f.C59104x;
+import com.google.common.p4526f.p4527a.C58975e;
+
+/* renamed from: com.google.android.apps.gsa.staticplugins.opa.translator.a.g */
+/* compiled from: PG */
+public final /* synthetic */ class C113594g implements C113670av {
+
+    /* renamed from: a */
+    public final /* synthetic */ C113613z f314525a;
+
+    public /* synthetic */ C113594g(C113613z zVar) {
+        this.f314525a = zVar;
+    }
+
+    /* renamed from: a */
+    public final void mo100320a() {
+        C113613z zVar = this.f314525a;
+        C59104x b = C113613z.f314555a.mo56224b();
+        b.mo56378ag(C58975e.f156826a, "InterpreterCtrl");
+        ((C59052c) ((C59052c) b).mo56372aa(28015)).mo56386p("Source Mic Button Opened");
+        RelativeLayout relativeLayout = zVar.f314584l;
+        if (relativeLayout != null) {
+            C89949q.m146521e(C28285c.m52882i(C113613z.m188060e(relativeLayout).mo100376e(), 5, (Integer) null), false);
+            if (!C113613z.m188063h(zVar.f314584l).mo100463e()) {
+                zVar.mo100351z();
+                zVar.mo100344s(zVar.f314589q);
+            }
+        }
+    }
+}

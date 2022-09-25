@@ -1,0 +1,112 @@
+package com.google.android.libraries.search.feedback.bugreport;
+
+import android.content.ContentProvider;
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.net.Uri;
+import com.google.apps.tiktok.account.data.C46175b;
+import com.google.apps.tiktok.inject.C47266f;
+import com.google.apps.tiktok.p3633d.p3634a.C46674l;
+import com.google.apps.tiktok.tracing.C47538ax;
+import com.google.apps.tiktok.tracing.C47770dh;
+import com.google.apps.tiktok.tracing.contrib.p3700b.C47633f;
+import com.google.common.p4526f.C59052c;
+import com.google.common.p4526f.C59071e;
+import java.io.FileDescriptor;
+import java.io.PrintWriter;
+import java.util.Map;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executor;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
+
+/* compiled from: PG */
+public final class BugReportContentProvider extends ContentProvider {
+
+    /* renamed from: a */
+    private static final C59071e f101496a = C59071e.m91332i("com.google.android.libraries.search.feedback.bugreport.BugReportContentProvider");
+
+    /* renamed from: com.google.android.libraries.search.feedback.bugreport.BugReportContentProvider$a */
+    /* compiled from: PG */
+    public interface C38320a {
+        /* renamed from: iU */
+        Map mo41378iU();
+    }
+
+    /* renamed from: com.google.android.libraries.search.feedback.bugreport.BugReportContentProvider$b */
+    /* compiled from: PG */
+    public interface C38321b {
+        /* renamed from: bT */
+        C47770dh mo41379bT();
+
+        /* renamed from: db */
+        C46175b mo41380db();
+
+        /* renamed from: dp */
+        C46674l mo41381dp();
+
+        /* renamed from: eK */
+        Executor mo41382eK();
+
+        /* renamed from: ex */
+        Map mo41383ex();
+    }
+
+    public final int delete(Uri uri, String str, String[] strArr) {
+        throw new UnsupportedOperationException("Unsupported!");
+    }
+
+    public final void dump(FileDescriptor fileDescriptor, PrintWriter printWriter, String[] strArr) {
+        Context context = getContext();
+        context.getClass();
+        C38321b bVar = (C38321b) C47266f.m84076a(context, C38321b.class);
+        C47538ax c = bVar.mo41379bT().mo51613c("BugReportContentProvider#dump");
+        try {
+            Executor eK = bVar.mo41382eK();
+            C46674l dp = bVar.mo41381dp();
+            C47633f.m84733g(bVar.mo41380db().mo50247d()).mo51515h(new C38324a(this, bVar.mo41383ex()), eK).mo51516i(new C38325b(dp), eK).mo51515h(new C38326c(printWriter), eK).get(10, TimeUnit.SECONDS);
+        } catch (InterruptedException | ExecutionException | TimeoutException e) {
+            e.printStackTrace(printWriter);
+            ((C59052c) ((C59052c) ((C59052c) f101496a.mo56226d()).mo56382g(e)).mo56372aa(53102)).mo56386p("Bug report dump failed.");
+            if (e instanceof InterruptedException) {
+                Thread.currentThread().interrupt();
+            }
+        } catch (Throwable th) {
+            if (c != null) {
+                try {
+                    c.close();
+                } catch (Throwable th2) {
+                    try {
+                        Throwable.class.getDeclaredMethod("addSuppressed", new Class[]{Throwable.class}).invoke(th, new Object[]{th2});
+                    } catch (Exception unused) {
+                    }
+                }
+            }
+            throw th;
+        }
+        if (c != null) {
+            c.close();
+        }
+    }
+
+    public final String getType(Uri uri) {
+        throw new UnsupportedOperationException("Unsupported!");
+    }
+
+    public final Uri insert(Uri uri, ContentValues contentValues) {
+        throw new UnsupportedOperationException("Unsupported!");
+    }
+
+    public final boolean onCreate() {
+        return true;
+    }
+
+    public final Cursor query(Uri uri, String[] strArr, String str, String[] strArr2, String str2) {
+        throw new UnsupportedOperationException("Unsupported!");
+    }
+
+    public final int update(Uri uri, ContentValues contentValues, String str, String[] strArr) {
+        throw new UnsupportedOperationException("Unsupported!");
+    }
+}

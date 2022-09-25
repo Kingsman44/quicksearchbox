@@ -1,0 +1,77 @@
+package com.google.speech.p5218j;
+
+import com.google.android.setupcompat.p3549a.C45240c;
+import com.google.protobuf.C62935bo;
+import com.google.protobuf.C62940bt;
+import com.google.protobuf.C62941bu;
+import com.google.protobuf.C62942bv;
+import com.google.protobuf.C62958ce;
+import com.google.protobuf.C63001dt;
+import com.google.protobuf.C63010eb;
+import com.google.protobuf.C63066gd;
+
+/* renamed from: com.google.speech.j.ao */
+/* compiled from: PG */
+public final class C66774ao extends C62942bv implements C63001dt {
+
+    /* renamed from: d */
+    public static final C66774ao f181601d;
+
+    /* renamed from: e */
+    public static final C62940bt f181602e;
+
+    /* renamed from: f */
+    private static volatile C63010eb f181603f;
+
+    /* renamed from: a */
+    public int f181604a;
+
+    /* renamed from: b */
+    public boolean f181605b;
+
+    /* renamed from: c */
+    public C66773an f181606c;
+
+    static {
+        C66774ao aoVar = new C66774ao();
+        f181601d = aoVar;
+        C62942bv.registerDefaultInstance(C66774ao.class, aoVar);
+        f181602e = C62942bv.newSingularGeneratedExtension(C66999hh.f182127p, aoVar, aoVar, (C62958ce) null, 378935300, C63066gd.MESSAGE, C66774ao.class);
+    }
+
+    private C66774ao() {
+    }
+
+    /* access modifiers changed from: protected */
+    public final Object dynamicMethod(C62941bu buVar, Object obj, Object obj2) {
+        C62941bu buVar2 = C62941bu.GET_MEMOIZED_IS_INITIALIZED;
+        switch (buVar.ordinal()) {
+            case 0:
+                return (byte) 1;
+            case 1:
+                return null;
+            case 2:
+                return newMessageInfo(f181601d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", C45240c.f118157a});
+            case 3:
+                return new C66774ao();
+            case 4:
+                return new C66771al();
+            case 5:
+                return f181601d;
+            case 6:
+                C63010eb ebVar = f181603f;
+                if (ebVar == null) {
+                    synchronized (C66774ao.class) {
+                        ebVar = f181603f;
+                        if (ebVar == null) {
+                            ebVar = new C62935bo(f181601d);
+                            f181603f = ebVar;
+                        }
+                    }
+                }
+                return ebVar;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

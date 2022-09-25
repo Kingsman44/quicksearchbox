@@ -1,0 +1,18 @@
+package com.google.android.apps.search.assistant.surfaces.voice.p9696m.p9709k;
+
+import com.google.android.libraries.search.assistant.performer.p2728a.C35472h;
+import com.google.android.libraries.search.assistant.performer.p2767j.C36180b;
+import com.google.android.libraries.search.assistant.performer.p2767j.C36183e;
+import com.google.assistant.p3897e.p3921j.C51809dy;
+import com.google.common.util.concurrent.C60856cj;
+import com.google.common.util.concurrent.C60870cx;
+
+/* renamed from: com.google.android.apps.search.assistant.surfaces.voice.m.k.a */
+/* compiled from: PG */
+public final class C128362a implements C35472h {
+    /* renamed from: a */
+    public final C60870cx mo20766a(C51809dy dyVar) {
+        C36183e.m64586d(dyVar, "narrated_web.READ_IT_ON_DEVICE");
+        return C60856cj.m92900i(C36180b.f94545b);
+    }
+}

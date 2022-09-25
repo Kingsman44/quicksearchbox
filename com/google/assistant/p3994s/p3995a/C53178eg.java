@@ -1,0 +1,12 @@
+package com.google.assistant.p3994s.p3995a;
+
+import com.google.protobuf.C62934bn;
+import com.google.protobuf.C63001dt;
+
+/* renamed from: com.google.assistant.s.a.eg */
+/* compiled from: PG */
+public final class C53178eg extends C62934bn implements C63001dt {
+    public C53178eg() {
+        super(C53179eh.f139366e);
+    }
+}

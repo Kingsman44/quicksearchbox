@@ -1,0 +1,26 @@
+package com.google.android.apps.gsa.staticplugins.nowstream.p8135c.p8146j.p8147a.p8148a;
+
+import com.google.android.apps.gsa.search.core.service.p6852g.C86724d;
+import com.google.android.apps.gsa.search.core.service.p6852g.C86731k;
+import com.google.android.apps.gsa.search.core.service.p6852g.C86732l;
+import com.google.android.apps.gsa.staticplugins.nowstream.p8135c.p8146j.p8147a.C105381a;
+import com.google.common.util.concurrent.C60870cx;
+import com.google.p375ai.p378b.C7718hj;
+
+/* renamed from: com.google.android.apps.gsa.staticplugins.nowstream.c.j.a.a.a */
+/* compiled from: PG */
+public final class C105382a extends C86731k {
+
+    /* renamed from: c */
+    private final C7718hj f294010c;
+
+    public C105382a(C7718hj hjVar) {
+        super("secondscreen", "secondscreen::dismissEntry", C86732l.CONTROLLED_BY_USER, C86724d.IDLE);
+        this.f294010c = hjVar;
+    }
+
+    /* renamed from: g */
+    public final C60870cx mo78371g(Object obj) {
+        return ((C105381a) obj).mo94578a(this.f294010c);
+    }
+}

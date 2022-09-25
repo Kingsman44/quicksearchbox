@@ -1,0 +1,82 @@
+package com.google.android.libraries.search.p2904c;
+
+import com.google.android.setupcompat.p3549a.C45240c;
+import com.google.protobuf.C62935bo;
+import com.google.protobuf.C62941bu;
+import com.google.protobuf.C62942bv;
+import com.google.protobuf.C63001dt;
+import com.google.protobuf.C63010eb;
+import com.google.protobuf.C63088z;
+
+/* renamed from: com.google.android.libraries.search.c.fz */
+/* compiled from: PG */
+public final class C37614fz extends C62942bv implements C63001dt {
+
+    /* renamed from: e */
+    public static final C37614fz f99950e;
+
+    /* renamed from: g */
+    private static volatile C63010eb f99951g;
+
+    /* renamed from: a */
+    public int f99952a;
+
+    /* renamed from: b */
+    public C37610fv f99953b;
+
+    /* renamed from: c */
+    public C63088z f99954c = C63088z.f170246b;
+
+    /* renamed from: d */
+    public C37612fx f99955d;
+
+    /* renamed from: f */
+    private byte f99956f = 2;
+
+    static {
+        C37614fz fzVar = new C37614fz();
+        f99950e = fzVar;
+        C62942bv.registerDefaultInstance(C37614fz.class, fzVar);
+    }
+
+    private C37614fz() {
+    }
+
+    /* access modifiers changed from: protected */
+    public final Object dynamicMethod(C62941bu buVar, Object obj, Object obj2) {
+        C62941bu buVar2 = C62941bu.GET_MEMOIZED_IS_INITIALIZED;
+        byte b = 1;
+        switch (buVar.ordinal()) {
+            case 0:
+                return Byte.valueOf(this.f99956f);
+            case 1:
+                if (obj == null) {
+                    b = 0;
+                }
+                this.f99956f = b;
+                return null;
+            case 2:
+                return newMessageInfo(f99950e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ည\u0001\u0002ᐉ\u0002\u0003ဉ\u0000", new Object[]{"a", C45240c.f118157a, "d", "b"});
+            case 3:
+                return new C37614fz();
+            case 4:
+                return new C37613fy();
+            case 5:
+                return f99950e;
+            case 6:
+                C63010eb ebVar = f99951g;
+                if (ebVar == null) {
+                    synchronized (C37614fz.class) {
+                        ebVar = f99951g;
+                        if (ebVar == null) {
+                            ebVar = new C62935bo(f99950e);
+                            f99951g = ebVar;
+                        }
+                    }
+                }
+                return ebVar;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

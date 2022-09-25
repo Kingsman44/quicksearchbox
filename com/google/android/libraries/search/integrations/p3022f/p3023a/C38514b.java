@@ -1,0 +1,203 @@
+package com.google.android.libraries.search.integrations.p3022f.p3023a;
+
+/* renamed from: com.google.android.libraries.search.integrations.f.a.b */
+/* compiled from: PG */
+public final class C38514b {
+    /* renamed from: a */
+    public static /* synthetic */ String m67762a(int i) {
+        switch (i) {
+            case 1:
+                return "TT_WORKER_TAG_UNKNOWN";
+            case 2:
+                return "TT_WORKER_ACCOUNT_INVALIDATE_ACCOUNTS";
+            case 3:
+                return "TT_WORKER_AGSAC_AGSA_BACKGROUND_TASK_WORKER";
+            case 4:
+                return "TT_WORKER_AGSAC_CHIME_PERIODIC_CHIME_REGISTRATION_WORKER";
+            case 5:
+                return "TT_WORKER_AGSAC_NGA_PIE_ELIGIBILITY_EXPORT_WORKER";
+            case 6:
+                return "TT_WORKER_AGSAC_NGA_PIE_TRIGGERING_WORKER";
+            case 7:
+                return "TT_WORKER_AGSAC_OPA_APP_USAGE_WORKER";
+            case 8:
+                return "TT_WORKER_AGSAC_OPA_BIRTHDAY_REFRESH_WORKER";
+            case 9:
+                return "TT_WORKER_AGSAC_OPA_CALENDAR_REFRESH_TASK_STATUS_WORKER";
+            case 10:
+                return "TT_WORKER_AGSAC_OPA_DEFAULT_WEATHER_LOCATION_TASK_WORKER";
+            case 11:
+                return "TT_WORKER_AGSAC_OPA_NOTIFICATION_EXPIRY_WORKER";
+            case 12:
+                return "TT_WORKER_AGSAC_OPA_NUDGE_UI_BACKGROUND_MONITOR_TASK";
+            case 13:
+                return "TT_WORKER_AGSAC_OPA_RESET_OPA_NGA_QUERY_COUNTER_TASK";
+            case 14:
+                return "TT_WORKER_AGSAC_OPA_TAPAS_CHARGING_WORKER";
+            case 15:
+                return "TT_WORKER_AGSAC_SMARTSPACE_LOGGER_TASK";
+            case 16:
+                return "TT_WORKER_AGSAC_TEST_WORKER";
+            case 17:
+                return "TT_WORKER_ASSISTANT_AMBIENT_LOGGER_WORKER";
+            case 18:
+                return "TT_WORKER_ASSISTANT_AUTO_DATASTORE_CLEANUP_WORKER";
+            case 19:
+                return "TT_WORKER_ASSISTANT_AUTO_DATASTORE_SYNC_WORKER";
+            case 20:
+                return "TT_WORKER_ASSISTANT_AUTO_NEWS_CONTENT_SYNC_WORKER";
+            case 21:
+                return "TT_WORKER_ASSISTANT_AUTO_UPDATE_RECOGNITION_CONTEXT_WORKER";
+            case 22:
+                return "TT_WORKER_ASSISTANT_LOCAL_CALENDAR_PERIODIC_SCHEDULER_WORKER";
+            case 23:
+                return "TT_WORKER_ASSISTANT_LOCAL_CALENDAR_UPDATE_WORKER";
+            case 24:
+                return "TT_WORKER_ASSISTANT_MEMORY_BACKFILL_WORKER";
+            case 25:
+                return "TT_WORKER_ASSISTANT_MEMORY_CLEANUP_WORKER";
+            case 26:
+                return "TT_WORKER_ASSISTANT_MEMORY_ICING_INDEX_UPDATE_WORKER";
+            case 27:
+                return "TT_WORKER_ASSISTANT_MEMORY_ICING_QUERY_REWRITER_CORPUS_UPDATE_WORKER";
+            case 28:
+                return "TT_WORKER_ASSISTANT_MEMORY_ICING_RECONCILIATION_WORKER";
+            case 29:
+                return "TT_WORKER_ASSISTANT_MEMORY_RECONCILIATION_WORKER";
+            case 30:
+                return "TT_WORKER_ASSISTANT_TAPAS_PERIODIC_ACCOUNT_WORKER";
+            case 31:
+                return "TT_WORKER_FEDORA_PERIODIC_WORKER";
+            case 32:
+                return "TT_WORKER_GOOGLEAPP_AUTO_DELETE_TABS_WORKER";
+            case 33:
+                return "TT_WORKER_GOOGLEAPP_FEED_SYNC";
+            case 34:
+                return "TT_WORKER_GOOGLEAPP_INCOGNITO_TIMEOUT_WORKER";
+            case 35:
+                return "TT_WORKER_LENS_ACCIDENTAL_MODEL_PUSH_CLEANER";
+            case 36:
+                return "TT_WORKER_LENS_BACKGROUND_RETRY_WORKER";
+            case 37:
+                return "TT_WORKER_PODCAST_AUTO_DOWNLOAD_WORKER";
+            case 38:
+                return "TT_WORKER_SUGGEST_COMPLETE_SERVER_ZERO_PREFIX_WORKER";
+            case 39:
+                return "TT_WORKER_TIKTOK_SYNC_WORKER";
+            case 40:
+                return "TT_WORKER_TIKTOK_WIPEOUT_WORKER";
+            case 41:
+                return "TT_WORKER_WEB_GOOGLE_COOKIE_REFRESH_WORKER";
+            case 42:
+                return "TT_WORKER_XUIKIT_CLEANUP_WORKER";
+            case 43:
+                return "TT_WORKER_CAMEOS_UPLOAD";
+            case 44:
+                return "TT_WORKER_GOOGLEAPP_DOODLE_SCHEDULE_DOWNLOAD";
+            case 45:
+                return "TT_WORKER_GOOGLEAPP_DOODLE_CONTENT_DOWNLOAD";
+            default:
+                return "TT_WORKER_GOOGLEAPP_ON_DEVICE_CONTENT_SYNC";
+        }
+    }
+
+    /* renamed from: b */
+    public static int m67763b(int i) {
+        switch (i) {
+            case 0:
+                return 1;
+            case 1:
+                return 2;
+            case 2:
+                return 3;
+            case 3:
+                return 4;
+            case 4:
+                return 5;
+            case 5:
+                return 6;
+            case 6:
+                return 7;
+            case 7:
+                return 8;
+            case 8:
+                return 9;
+            case 9:
+                return 10;
+            case 10:
+                return 11;
+            case 11:
+                return 12;
+            case 12:
+                return 13;
+            case 13:
+                return 14;
+            case 14:
+                return 15;
+            case 15:
+                return 16;
+            case 16:
+                return 17;
+            case 17:
+                return 18;
+            case 18:
+                return 19;
+            case 19:
+                return 20;
+            case 20:
+                return 21;
+            case 21:
+                return 22;
+            case 22:
+                return 23;
+            case 23:
+                return 24;
+            case 24:
+                return 25;
+            case 25:
+                return 26;
+            case 26:
+                return 27;
+            case 27:
+                return 28;
+            case 28:
+                return 29;
+            case 29:
+                return 30;
+            case 30:
+                return 31;
+            case 31:
+                return 32;
+            case 32:
+                return 33;
+            case 33:
+                return 34;
+            case 34:
+                return 35;
+            case 35:
+                return 36;
+            case 36:
+                return 37;
+            case 37:
+                return 38;
+            case 38:
+                return 39;
+            case 39:
+                return 40;
+            case 40:
+                return 41;
+            case 41:
+                return 42;
+            case 42:
+                return 43;
+            case 43:
+                return 44;
+            case 44:
+                return 45;
+            case 45:
+                return 46;
+            default:
+                return 0;
+        }
+    }
+}

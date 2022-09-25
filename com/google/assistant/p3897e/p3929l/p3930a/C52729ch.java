@@ -1,0 +1,13 @@
+package com.google.assistant.p3897e.p3929l.p3930a;
+
+import com.evernote.android.state.BuildConfig;
+import com.google.protobuf.C62994dm;
+import com.google.protobuf.C63066gd;
+
+/* renamed from: com.google.assistant.e.l.a.ch */
+/* compiled from: PG */
+final class C52729ch {
+
+    /* renamed from: a */
+    static final C62994dm f138394a = new C62994dm(C63066gd.INT32, 0, C63066gd.STRING, BuildConfig.FLAVOR);
+}

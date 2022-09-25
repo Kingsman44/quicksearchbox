@@ -1,0 +1,23 @@
+package com.google.android.apps.search.googleapp.discover.p10248y;
+
+/* renamed from: com.google.android.apps.search.googleapp.discover.y.u */
+/* compiled from: PG */
+public enum C135270u {
+    REQUEST_FAILED_NO_INTERNET,
+    REQUEST_FAILED,
+    BAD_RESPONSE,
+    AUTHENTICATION_ERROR,
+    USER_SIGNED_OUT,
+    USER_INELIGIBLE_FOR_DISCOVER,
+    DISCOVER_IS_DISABLED,
+    GMS_CORE_MISSING,
+    GMS_CORE_DISABLED,
+    GMS_CORE_UPDATING,
+    GMS_CORE_INVALID,
+    GMS_CORE_MISSING_PERMISSION,
+    GMS_CORE_NOT_AVAILABLE_OTHER_REASON,
+    NO_CARDS_FOUND_PREVIOUS_REQUEST_FAILURE,
+    NO_CARDS_RECEIVED_IN_FEED_RESPONSE,
+    NO_CARDS_FOUND_OTHER,
+    UNKNOWN
+}

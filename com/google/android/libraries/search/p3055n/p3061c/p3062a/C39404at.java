@@ -1,0 +1,33 @@
+package com.google.android.libraries.search.p3055n.p3061c.p3062a;
+
+import com.google.apps.tiktok.tracing.C47810es;
+import com.google.common.p4526f.C59052c;
+import com.google.common.p4526f.C59104x;
+import com.google.common.p4526f.p4527a.C58975e;
+import com.google.common.util.concurrent.C60870cx;
+import com.google.common.util.concurrent.C60922j;
+import com.google.common.util.concurrent.C60930r;
+
+/* renamed from: com.google.android.libraries.search.n.c.a.at */
+/* compiled from: PG */
+public final /* synthetic */ class C39404at implements C60930r {
+
+    /* renamed from: a */
+    public final /* synthetic */ C39406av f103743a;
+
+    public /* synthetic */ C39404at(C39406av avVar) {
+        this.f103743a = avVar;
+    }
+
+    /* renamed from: a */
+    public final C60870cx mo18058a() {
+        C39406av avVar = this.f103743a;
+        C39633o oVar = avVar.f103752f;
+        C59104x b = C39633o.f104316a.mo56224b();
+        b.mo56378ag(C58975e.f156826a, "AOHotwordDetectorMgr");
+        ((C59052c) ((C59052c) b).mo56372aa(53497)).mo56386p("#shutdown");
+        C60870cx b2 = oVar.f104318c.mo51512b(new C39630l(oVar), oVar.f104319d);
+        C39403as asVar = new C39403as(avVar);
+        return C60922j.m93045h(b2, C47810es.m84966f(asVar), avVar.f103749c);
+    }
+}

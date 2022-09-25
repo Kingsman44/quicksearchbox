@@ -1,0 +1,12 @@
+package com.google.common.p4552o.p4570p;
+
+import com.google.protobuf.C62934bn;
+import com.google.protobuf.C63001dt;
+
+/* renamed from: com.google.common.o.p.r */
+/* compiled from: PG */
+public final class C60397r extends C62934bn implements C63001dt {
+    public C60397r() {
+        super(C60398s.f163445a);
+    }
+}

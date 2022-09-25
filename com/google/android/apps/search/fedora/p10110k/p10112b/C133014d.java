@@ -1,0 +1,41 @@
+package com.google.android.apps.search.fedora.p10110k.p10112b;
+
+import p5488io.grpc.p5533i.C70853aa;
+import p5488io.grpc.p5533i.C70857ae;
+import p5488io.grpc.p5533i.C70862aj;
+import p5488io.grpc.p5533i.C70884w;
+import p5488io.grpc.p5533i.C70885x;
+
+/* renamed from: com.google.android.apps.search.fedora.k.b.d */
+/* compiled from: PG */
+final class C133014d implements C70857ae, C70853aa, C70885x, C70884w {
+
+    /* renamed from: a */
+    private final C133013c f362727a;
+
+    /* renamed from: b */
+    private final int f362728b;
+
+    public C133014d(C133013c cVar, int i) {
+        this.f362727a = cVar;
+        this.f362728b = i;
+    }
+
+    /* renamed from: a */
+    public final C70862aj mo20118a(C70862aj ajVar) {
+        throw new AssertionError();
+    }
+
+    /* renamed from: b */
+    public final void mo20119b(Object obj, C70862aj ajVar) {
+        int i = this.f362728b;
+        if (i == 0) {
+            this.f362727a.mo110952b((C133017g) obj, ajVar);
+        } else if (i != 1) {
+            this.f362727a.mo110953c((C133025o) obj, ajVar);
+        } else {
+            C133021k kVar = (C133021k) obj;
+            this.f362727a.mo110954d(ajVar);
+        }
+    }
+}

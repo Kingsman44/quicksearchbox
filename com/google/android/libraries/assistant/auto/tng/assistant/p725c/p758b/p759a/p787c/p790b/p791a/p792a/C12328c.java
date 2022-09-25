@@ -1,0 +1,20 @@
+package com.google.android.libraries.assistant.auto.tng.assistant.p725c.p758b.p759a.p787c.p790b.p791a.p792a;
+
+import com.google.android.apps.gsa.p8883x.C118826c;
+import com.google.common.base.C58817ah;
+
+/* renamed from: com.google.android.libraries.assistant.auto.tng.assistant.c.b.a.c.b.a.a.c */
+/* compiled from: PG */
+public final /* synthetic */ class C12328c implements C58817ah {
+
+    /* renamed from: a */
+    public static final /* synthetic */ C12328c f39137a = new C12328c();
+
+    private /* synthetic */ C12328c() {
+    }
+
+    public final Object apply(Object obj) {
+        C118826c cVar = (C118826c) obj;
+        return null;
+    }
+}

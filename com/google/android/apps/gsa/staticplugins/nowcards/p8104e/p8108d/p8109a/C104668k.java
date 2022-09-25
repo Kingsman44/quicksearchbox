@@ -1,0 +1,27 @@
+package com.google.android.apps.gsa.staticplugins.nowcards.p8104e.p8108d.p8109a;
+
+import com.google.android.apps.gsa.shared.util.p7159c.C90919bp;
+import com.google.common.p4526f.C59052c;
+import com.google.common.p4526f.C59104x;
+import com.google.common.p4526f.p4527a.C58975e;
+
+/* renamed from: com.google.android.apps.gsa.staticplugins.nowcards.e.d.a.k */
+/* compiled from: PG */
+public final /* synthetic */ class C104668k implements C90919bp {
+
+    /* renamed from: a */
+    public final /* synthetic */ String f291495a;
+
+    public /* synthetic */ C104668k(String str) {
+        this.f291495a = str;
+    }
+
+    /* renamed from: a */
+    public final void mo17870a(Object obj) {
+        String str = this.f291495a;
+        Exception exc = (Exception) obj;
+        C59104x c = C104535ac.f290753a.mo56225c();
+        c.mo56378ag(C58975e.f156826a, "BaseModuleController");
+        ((C59052c) ((C59052c) c).mo56372aa(21983)).mo56389s("Could not look up saved state of [%s]", str);
+    }
+}

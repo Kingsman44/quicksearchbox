@@ -1,0 +1,21 @@
+package com.google.android.apps.gsa.staticplugins.nowstream.shared.p8149a;
+
+import com.google.android.libraries.gsa.monet.tools.model.shared.types.C23263h;
+import com.google.common.p4522b.C58485gu;
+import java.util.List;
+
+/* renamed from: com.google.android.apps.gsa.staticplugins.nowstream.shared.a.m */
+/* compiled from: PG */
+public final /* synthetic */ class C105405m implements C23263h {
+
+    /* renamed from: a */
+    public static final /* synthetic */ C105405m f294026a = new C105405m();
+
+    private /* synthetic */ C105405m() {
+    }
+
+    /* renamed from: a */
+    public final Object mo28589a(List list) {
+        return C58485gu.m89842j(list);
+    }
+}

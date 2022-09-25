@@ -1,0 +1,32 @@
+package com.google.android.apps.gsa.nga.engine.p6056o.p6077e.p6090d;
+
+import com.google.android.apps.gsa.nga.engine.aj.af;
+import p3186j$.util.function.Predicate;
+
+/* renamed from: com.google.android.apps.gsa.nga.engine.o.e.d.bd */
+/* compiled from: PG */
+public final /* synthetic */ class C77032bd implements Predicate {
+
+    /* renamed from: a */
+    public static final /* synthetic */ C77032bd f212617a = new C77032bd();
+
+    private /* synthetic */ C77032bd() {
+    }
+
+    public final /* synthetic */ Predicate and(Predicate predicate) {
+        return Predicate.CC.$default$and(this, predicate);
+    }
+
+    public final /* synthetic */ Predicate negate() {
+        return Predicate.CC.$default$negate(this);
+    }
+
+    /* renamed from: or */
+    public final /* synthetic */ Predicate mo17950or(Predicate predicate) {
+        return Predicate.CC.$default$or(this, predicate);
+    }
+
+    public final boolean test(Object obj) {
+        return ((af) obj).q();
+    }
+}

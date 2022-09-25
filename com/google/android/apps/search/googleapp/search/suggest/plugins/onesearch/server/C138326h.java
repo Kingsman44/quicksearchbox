@@ -1,0 +1,30 @@
+package com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server;
+
+import com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.C138257h;
+import com.google.common.p4526f.C59052c;
+import com.google.common.util.concurrent.C60845bz;
+import p5488io.grpc.p5533i.C70862aj;
+
+/* renamed from: com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.h */
+/* compiled from: PG */
+final class C138326h implements C60845bz {
+
+    /* renamed from: a */
+    final /* synthetic */ C70862aj f376349a;
+
+    public C138326h(C70862aj ajVar) {
+        this.f376349a = ajVar;
+    }
+
+    /* renamed from: gl */
+    public final void mo17910gl(Throwable th) {
+        ((C59052c) ((C59052c) ((C59052c) C138331m.f376354a.mo56226d()).mo56382g(th)).mo56372aa(41169)).mo56386p("#deleteSuggestion failed");
+        this.f376349a.mo20122b(th);
+    }
+
+    /* renamed from: gm */
+    public final /* bridge */ /* synthetic */ void mo17911gm(Object obj) {
+        this.f376349a.mo20123c((C138257h) obj);
+        this.f376349a.mo20121a();
+    }
+}

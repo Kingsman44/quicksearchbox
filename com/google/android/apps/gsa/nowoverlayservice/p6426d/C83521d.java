@@ -1,0 +1,23 @@
+package com.google.android.apps.gsa.nowoverlayservice.p6426d;
+
+import com.google.android.apps.search.googleapp.launcher.p10341b.p10348f.C136470f;
+import p3186j$.util.function.Consumer;
+
+/* renamed from: com.google.android.apps.gsa.nowoverlayservice.d.d */
+/* compiled from: PG */
+public final /* synthetic */ class C83521d implements Consumer {
+
+    /* renamed from: a */
+    public static final /* synthetic */ C83521d f227705a = new C83521d();
+
+    private /* synthetic */ C83521d() {
+    }
+
+    public final void accept(Object obj) {
+        ((C136470f) obj).mo113070i();
+    }
+
+    public final /* synthetic */ Consumer andThen(Consumer consumer) {
+        return Consumer.CC.$default$andThen(this, consumer);
+    }
+}

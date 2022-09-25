@@ -1,0 +1,14 @@
+package com.google.android.apps.gsa.search.shared.service.p6935b;
+
+import com.google.protobuf.C62940bt;
+import com.google.protobuf.C62942bv;
+import com.google.protobuf.C62958ce;
+import com.google.protobuf.C63066gd;
+
+/* renamed from: com.google.android.apps.gsa.search.shared.service.b.hs */
+/* compiled from: PG */
+public final class C87899hs {
+
+    /* renamed from: a */
+    public static final C62940bt f237783a = C62942bv.newSingularGeneratedExtension(C87741bw.f237477c, C87901hu.f237784c, C87901hu.f237784c, (C62958ce) null, 116234395, C63066gd.MESSAGE, C87901hu.class);
+}

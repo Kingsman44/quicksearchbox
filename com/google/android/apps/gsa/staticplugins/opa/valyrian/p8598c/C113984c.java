@@ -1,0 +1,17 @@
+package com.google.android.apps.gsa.staticplugins.opa.valyrian.p8598c;
+
+/* renamed from: com.google.android.apps.gsa.staticplugins.opa.valyrian.c.c */
+/* compiled from: PG */
+public enum C113984c {
+    UNKNOWN,
+    LOCKHART,
+    TRY_BEFORE_YOU_BUY_SUGGESTION,
+    TRY_BEFORE_YOU_BUY_ANIMATION,
+    TRY_BEFORE_YOU_BUY_VIDEO,
+    TRY_BEFORE_YOU_BUY_QUERY_SUGGESTION_FOR_NEW_USERS,
+    UPGRADED_USER_WITH_TIMEOUT_TO_QUERY_SUGGESTION,
+    OVERAPP_DISCOVERY_QUERY_SUGGESTION,
+    TRY_BEFORE_YOU_BUY_QUERY_SUGGESTION_FOR_ACTIVATED_USERS,
+    APP_ACTIONS_SUGGESTION,
+    NEST_PROMO_SUGGESTION
+}

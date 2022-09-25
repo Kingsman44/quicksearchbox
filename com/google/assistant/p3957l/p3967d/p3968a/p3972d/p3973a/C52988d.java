@@ -1,0 +1,64 @@
+package com.google.assistant.p3957l.p3967d.p3968a.p3972d.p3973a;
+
+import com.google.protobuf.C62935bo;
+import com.google.protobuf.C62941bu;
+import com.google.protobuf.C62942bv;
+import com.google.protobuf.C62971cq;
+import com.google.protobuf.C63001dt;
+import com.google.protobuf.C63010eb;
+
+/* renamed from: com.google.assistant.l.d.a.d.a.d */
+/* compiled from: PG */
+public final class C52988d extends C62942bv implements C63001dt {
+
+    /* renamed from: b */
+    public static final C52988d f138902b;
+
+    /* renamed from: c */
+    private static volatile C63010eb f138903c;
+
+    /* renamed from: a */
+    public C62971cq f138904a = emptyProtobufList();
+
+    static {
+        C52988d dVar = new C52988d();
+        f138902b = dVar;
+        C62942bv.registerDefaultInstance(C52988d.class, dVar);
+    }
+
+    private C52988d() {
+    }
+
+    /* access modifiers changed from: protected */
+    public final Object dynamicMethod(C62941bu buVar, Object obj, Object obj2) {
+        C62941bu buVar2 = C62941bu.GET_MEMOIZED_IS_INITIALIZED;
+        switch (buVar.ordinal()) {
+            case 0:
+                return (byte) 1;
+            case 1:
+                return null;
+            case 2:
+                return newMessageInfo(f138902b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", C52987c.class});
+            case 3:
+                return new C52988d();
+            case 4:
+                return new C52985a();
+            case 5:
+                return f138902b;
+            case 6:
+                C63010eb ebVar = f138903c;
+                if (ebVar == null) {
+                    synchronized (C52988d.class) {
+                        ebVar = f138903c;
+                        if (ebVar == null) {
+                            ebVar = new C62935bo(f138902b);
+                            f138903c = ebVar;
+                        }
+                    }
+                }
+                return ebVar;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

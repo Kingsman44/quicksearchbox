@@ -1,0 +1,96 @@
+package androidx.p201w.p202a;
+
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+
+/* renamed from: androidx.w.a.ab */
+/* compiled from: PG */
+public final class C4325ab {
+
+    /* renamed from: a */
+    public static final C4335d f13948a = new C4335d("FORCE_DARK_STRATEGY", "FORCE_DARK_BEHAVIOR");
+
+    /* renamed from: b */
+    public static final C4335d f13949b = new C4335d("WEB_MESSAGE_LISTENER", "WEB_MESSAGE_LISTENER");
+
+    /* renamed from: c */
+    public static final C4335d f13950c = new C4335d("GET_VARIATIONS_HEADER", "GET_VARIATIONS_HEADER");
+
+    static {
+        new C4333b("VISUAL_STATE_CALLBACK", "VISUAL_STATE_CALLBACK");
+        new C4333b("OFF_SCREEN_PRERASTER", "OFF_SCREEN_PRERASTER");
+        new C4336e("SAFE_BROWSING_ENABLE", "SAFE_BROWSING_ENABLE");
+        new C4334c("DISABLED_ACTION_MODE_MENU_ITEMS", "DISABLED_ACTION_MODE_MENU_ITEMS");
+        new C4337f("START_SAFE_BROWSING", "START_SAFE_BROWSING");
+        new C4337f("SAFE_BROWSING_WHITELIST", "SAFE_BROWSING_WHITELIST");
+        new C4337f("SAFE_BROWSING_WHITELIST", "SAFE_BROWSING_ALLOWLIST");
+        new C4337f("SAFE_BROWSING_ALLOWLIST", "SAFE_BROWSING_WHITELIST");
+        new C4337f("SAFE_BROWSING_ALLOWLIST", "SAFE_BROWSING_ALLOWLIST");
+        new C4337f("SAFE_BROWSING_PRIVACY_POLICY_URL", "SAFE_BROWSING_PRIVACY_POLICY_URL");
+        new C4334c("SERVICE_WORKER_BASIC_USAGE", "SERVICE_WORKER_BASIC_USAGE");
+        new C4334c("SERVICE_WORKER_CACHE_MODE", "SERVICE_WORKER_CACHE_MODE");
+        new C4334c("SERVICE_WORKER_CONTENT_ACCESS", "SERVICE_WORKER_CONTENT_ACCESS");
+        new C4334c("SERVICE_WORKER_FILE_ACCESS", "SERVICE_WORKER_FILE_ACCESS");
+        new C4334c("SERVICE_WORKER_BLOCK_NETWORK_LOADS", "SERVICE_WORKER_BLOCK_NETWORK_LOADS");
+        new C4334c("SERVICE_WORKER_SHOULD_INTERCEPT_REQUEST", "SERVICE_WORKER_SHOULD_INTERCEPT_REQUEST");
+        new C4333b("RECEIVE_WEB_RESOURCE_ERROR", "RECEIVE_WEB_RESOURCE_ERROR");
+        new C4333b("RECEIVE_HTTP_ERROR", "RECEIVE_HTTP_ERROR");
+        new C4334c("SHOULD_OVERRIDE_WITH_REDIRECTS", "SHOULD_OVERRIDE_WITH_REDIRECTS");
+        new C4337f("SAFE_BROWSING_HIT", "SAFE_BROWSING_HIT");
+        new C4334c("WEB_RESOURCE_REQUEST_IS_REDIRECT", "WEB_RESOURCE_REQUEST_IS_REDIRECT");
+        new C4333b("WEB_RESOURCE_ERROR_GET_DESCRIPTION", "WEB_RESOURCE_ERROR_GET_DESCRIPTION");
+        new C4333b("WEB_RESOURCE_ERROR_GET_CODE", "WEB_RESOURCE_ERROR_GET_CODE");
+        new C4337f("SAFE_BROWSING_RESPONSE_BACK_TO_SAFETY", "SAFE_BROWSING_RESPONSE_BACK_TO_SAFETY");
+        new C4337f("SAFE_BROWSING_RESPONSE_PROCEED", "SAFE_BROWSING_RESPONSE_PROCEED");
+        new C4337f("SAFE_BROWSING_RESPONSE_SHOW_INTERSTITIAL", "SAFE_BROWSING_RESPONSE_SHOW_INTERSTITIAL");
+        new C4333b("WEB_MESSAGE_PORT_POST_MESSAGE", "WEB_MESSAGE_PORT_POST_MESSAGE");
+        new C4333b("WEB_MESSAGE_PORT_CLOSE", "WEB_MESSAGE_PORT_CLOSE");
+        new C4333b("WEB_MESSAGE_PORT_SET_MESSAGE_CALLBACK", "WEB_MESSAGE_PORT_SET_MESSAGE_CALLBACK");
+        new C4333b("CREATE_WEB_MESSAGE_CHANNEL", "CREATE_WEB_MESSAGE_CHANNEL");
+        new C4333b("POST_WEB_MESSAGE", "POST_WEB_MESSAGE");
+        new C4333b("WEB_MESSAGE_CALLBACK_ON_MESSAGE", "WEB_MESSAGE_CALLBACK_ON_MESSAGE");
+        new C4336e("GET_WEB_VIEW_CLIENT", "GET_WEB_VIEW_CLIENT");
+        new C4336e("GET_WEB_CHROME_CLIENT", "GET_WEB_CHROME_CLIENT");
+        new C4339h("GET_WEB_VIEW_RENDERER", "GET_WEB_VIEW_RENDERER");
+        new C4339h("WEB_VIEW_RENDERER_TERMINATE", "WEB_VIEW_RENDERER_TERMINATE");
+        new C4338g("TRACING_CONTROLLER_BASIC_USAGE", "TRACING_CONTROLLER_BASIC_USAGE");
+        new C4324aa();
+        new C4339h("WEB_VIEW_RENDERER_CLIENT_BASIC_USAGE", "WEB_VIEW_RENDERER_CLIENT_BASIC_USAGE");
+        new C4335d("PROXY_OVERRIDE", "PROXY_OVERRIDE:3");
+        new C4335d("SUPPRESS_ERROR_PAGE", "SUPPRESS_ERROR_PAGE");
+        new C4335d("MULTI_PROCESS", "MULTI_PROCESS_QUERY");
+        new C4339h("FORCE_DARK", "FORCE_DARK");
+        new C4335d("ALGORITHMIC_DARKENING", "ALGORITHMIC_DARKENING");
+        new C4335d("DOCUMENT_START_SCRIPT", "DOCUMENT_START_SCRIPT:1");
+        new C4335d("PROXY_OVERRIDE_REVERSE_BYPASS", "PROXY_OVERRIDE_REVERSE_BYPASS");
+        new C4335d("REQUESTED_WITH_HEADER_CONTROL", "REQUESTED_WITH_HEADER_CONTROL");
+        new C4335d("ENTERPRISE_AUTHENTICATION_APP_LINK_POLICY", "ENTERPRISE_AUTHENTICATION_APP_LINK_POLICY");
+        new C4335d("GET_COOKIE_INFO", "GET_COOKIE_INFO");
+    }
+
+    /* renamed from: a */
+    public static UnsupportedOperationException m12422a() {
+        return new UnsupportedOperationException("This method is not supported by the current version of the framework and the current WebView APK");
+    }
+
+    /* renamed from: b */
+    public static boolean m12423b(String str) {
+        Set<C4350s> unmodifiableSet = Collections.unmodifiableSet(C4340i.f13958a);
+        HashSet<C4350s> hashSet = new HashSet<>();
+        for (C4350s sVar : unmodifiableSet) {
+            if (sVar.mo9275b().equals(str)) {
+                hashSet.add(sVar);
+            }
+        }
+        if (!hashSet.isEmpty()) {
+            for (C4350s c : hashSet) {
+                if (c.mo9276c()) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        throw new RuntimeException("Unknown feature ".concat(str));
+    }
+}

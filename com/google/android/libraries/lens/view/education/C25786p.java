@@ -1,0 +1,24 @@
+package com.google.android.libraries.lens.view.education;
+
+import com.google.android.libraries.p1635au.C19567d;
+import com.google.android.libraries.p1635au.C19571h;
+import com.google.common.base.C58881cr;
+
+/* renamed from: com.google.android.libraries.lens.view.education.p */
+/* compiled from: PG */
+public final /* synthetic */ class C25786p implements C58881cr {
+
+    /* renamed from: a */
+    public final /* synthetic */ C25794x f70056a;
+
+    public /* synthetic */ C25786p(C25794x xVar) {
+        this.f70056a = xVar;
+    }
+
+    /* renamed from: a */
+    public final Object mo6453a() {
+        C19567d c = this.f70056a.f70064a.mo24833c("/client_streamz/lens_homework/font_download_request", new C19571h[0]);
+        c.f54488d = false;
+        return c;
+    }
+}

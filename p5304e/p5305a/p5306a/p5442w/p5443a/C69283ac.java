@@ -1,0 +1,11 @@
+package p5304e.p5305a.p5306a.p5442w.p5443a;
+
+/* renamed from: e.a.a.w.a.ac */
+/* compiled from: PG */
+public interface C69283ac {
+    /* renamed from: a */
+    boolean mo60938a();
+
+    /* renamed from: b */
+    boolean mo60939b();
+}

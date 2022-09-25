@@ -1,0 +1,113 @@
+package com.google.android.apps.search.assistant.verticals.ambient.feedback;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.ContextWrapper;
+import android.os.Bundle;
+import android.support.p031v4.app.Fragment;
+import android.view.LayoutInflater;
+import androidx.lifecycle.C2363bk;
+import com.google.apps.tiktok.inject.baseclasses.C47210f;
+import com.google.apps.tiktok.inject.p3654a.p3655a.C47189c;
+import com.google.apps.tiktok.inject.p3660e.p3661a.C47247a;
+import com.google.apps.tiktok.inject.p3660e.p3661a.C47252b;
+import dagger.hilt.android.internal.managers.C68324h;
+import dagger.hilt.android.p5301b.C68297a;
+import dagger.hilt.p5299a.C68288b;
+import dagger.hilt.p5299a.C68289c;
+
+/* renamed from: com.google.android.apps.search.assistant.verticals.ambient.feedback.af */
+/* compiled from: PG */
+class C130613af extends C47210f implements C68288b {
+
+    /* renamed from: a */
+    private ContextWrapper f357722a;
+
+    /* renamed from: c */
+    private boolean f357723c;
+
+    /* renamed from: d */
+    private volatile C47247a f357724d;
+
+    /* renamed from: e */
+    private final Object f357725e = new Object();
+
+    /* renamed from: f */
+    private boolean f357726f = false;
+
+    /* renamed from: a */
+    private final void mo109776a() {
+        if (this.f357722a == null) {
+            this.f357722a = new C47252b.C47253a(super.getContext(), (Fragment) this);
+            this.f357723c = C68297a.m98634a(super.getContext());
+        }
+    }
+
+    /* access modifiers changed from: protected */
+    /* renamed from: b */
+    public C47247a mo109754b() {
+        throw null;
+    }
+
+    /* renamed from: d */
+    public final C47247a mo109755d() {
+        if (this.f357724d == null) {
+            synchronized (this.f357725e) {
+                if (this.f357724d == null) {
+                    this.f357724d = mo109754b();
+                }
+            }
+        }
+        return this.f357724d;
+    }
+
+    /* access modifiers changed from: protected */
+    /* renamed from: f */
+    public final void mo109756f() {
+        if (!this.f357726f) {
+            this.f357726f = true;
+            mo109755d().mo17653jN();
+            C130649i iVar = (C130649i) this;
+        }
+    }
+
+    public Context getContext() {
+        if (super.getContext() == null && !this.f357723c) {
+            return null;
+        }
+        mo109776a();
+        return this.f357722a;
+    }
+
+    public final C2363bk getDefaultViewModelProviderFactory() {
+        return C47189c.m83940a(this, super.getDefaultViewModelProviderFactory());
+    }
+
+    /* renamed from: jN */
+    public final Object mo17653jN() {
+        return mo109755d().mo17653jN();
+    }
+
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        ContextWrapper contextWrapper = this.f357722a;
+        boolean z = true;
+        if (!(contextWrapper == null || C68324h.m98668e(contextWrapper) == activity)) {
+            z = false;
+        }
+        C68289c.m98631a(z, "onAttach called multiple times with different Context! Sting Fragments should not be retained.", new Object[0]);
+        mo109776a();
+        mo109756f();
+    }
+
+    public LayoutInflater onGetLayoutInflater(Bundle bundle) {
+        LayoutInflater onGetLayoutInflater = super.onGetLayoutInflater(bundle);
+        return onGetLayoutInflater.cloneInContext(new C47252b.C47253a(onGetLayoutInflater, (Fragment) this));
+    }
+
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        mo109776a();
+        mo109756f();
+    }
+}

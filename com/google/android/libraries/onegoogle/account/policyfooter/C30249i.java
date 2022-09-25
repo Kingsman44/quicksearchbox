@@ -1,0 +1,34 @@
+package com.google.android.libraries.onegoogle.account.policyfooter;
+
+import com.google.android.googlequicksearchbox.R;
+
+/* renamed from: com.google.android.libraries.onegoogle.account.policyfooter.i */
+/* compiled from: PG */
+final class C30249i extends C30248h {
+
+    /* renamed from: b */
+    final /* synthetic */ PolicyFooterView f81779b;
+
+    /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+    public C30249i(PolicyFooterView policyFooterView) {
+        super(policyFooterView);
+        this.f81779b = policyFooterView;
+    }
+
+    /* renamed from: a */
+    public final void mo35758a() {
+        this.f81779b.f81746d.setVisibility(8);
+        this.f81779b.f81747e.setVisibility(0);
+        PolicyFooterView.m56209g(this.f81779b.f81743a);
+        PolicyFooterView.m56210h(this.f81779b.f81745c);
+        this.f81779b.mo35731f(1, 8388613, 8388611);
+        this.f81779b.mo35728a(new int[][]{new int[]{R.id.og_privacy_policy_button}, new int[]{R.id.og_tos_button, R.id.og_separator2, R.id.og_custom_button}});
+        PolicyFooterView policyFooterView = this.f81779b;
+        PolicyFooterView.m56211i(policyFooterView.f81747e, policyFooterView.f81748f);
+    }
+
+    /* renamed from: b */
+    public final void mo35759b(int i) {
+        mo35760c(this.f81779b.f81743a, i);
+    }
+}

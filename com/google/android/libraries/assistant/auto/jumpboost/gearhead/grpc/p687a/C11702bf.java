@@ -1,0 +1,12 @@
+package com.google.android.libraries.assistant.auto.jumpboost.gearhead.grpc.p687a;
+
+import com.google.protobuf.C62934bn;
+import com.google.protobuf.C63001dt;
+
+/* renamed from: com.google.android.libraries.assistant.auto.jumpboost.gearhead.grpc.a.bf */
+/* compiled from: PG */
+public final class C11702bf extends C62934bn implements C63001dt {
+    public C11702bf() {
+        super(C11703bg.f37724a);
+    }
+}

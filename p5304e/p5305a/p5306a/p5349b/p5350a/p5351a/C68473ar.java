@@ -1,0 +1,24 @@
+package p5304e.p5305a.p5306a.p5349b.p5350a.p5351a;
+
+import android.util.Base64;
+import com.google.common.base.C58838bb;
+import com.google.protobuf.C62942bv;
+import com.google.protos.p5124m.p5125a.C65603f;
+import p5462h.p5473f.p5474a.C69615a;
+
+/* renamed from: e.a.a.b.a.a.ar */
+/* compiled from: PG */
+public final /* synthetic */ class C68473ar implements C69615a {
+    /* renamed from: a */
+    public final Object mo5672a() {
+        try {
+            C65603f fVar = (C65603f) C62942bv.parseFrom((C62942bv) C65603f.f178305b, Base64.decode("Cg5lbjplbi1VUyxlbi1HQgoOZGU6ZW4tVVMsZGUtREUKDmVzOmVuLVVTLGVzLUVTChRmcjplbi1VUyxmci1GUixmci1DQQoOaXQ6ZW4tVVMsaXQtSVQKFG5sOmVuLVVTLG5sLUJFLG5sLU5MCg5uYjplbi1VUyxuYi1OTwoOc3Y6ZW4tVVMsc3YtU0U", 3));
+            C58838bb.m90866a(fVar, "use Optional.orNull() instead of Optional.or(null)");
+            return fVar;
+        } catch (RuntimeException e) {
+            throw e;
+        } catch (Exception e2) {
+            throw new RuntimeException(e2);
+        }
+    }
+}
